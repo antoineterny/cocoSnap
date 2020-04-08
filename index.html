@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Test Raphael</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="snap.svg-min.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap');
+    </style>
+</head>
+<body>
+    <h1>COVID-19</h1>
+    <h2>Cas confirmés et décès en France, au Brésil et au Royaume-Uni</h2>
+        <svg id="svg"></svg> 
+
+        <form class='choix'>
+            <label>Afficher les données pour :</label>
+            <input type="button" value="France" onclick="changeEventHandler(event);"></input>
+            <input type="button" value="Brésil" onclick="changeEventHandler(event);"></input>
+            <input type="button" value="Royaume-Uni" onclick="changeEventHandler(event);"></input>
+        </form>
+
+        <!-- <p>En <span id="carre1"></span> les cas confirmés, en <span id="carre2"></span> les décès.</p> -->
+
+        <div style="margin-left: auto; margin-right: auto; width: 1000px; text-align: left;">
+            <label>
+                <input type="color" value="#8B0000" for="couleurCas">
+                Nombre de cas confirmés<br>
+            </label>
+            
+            <label>
+                <input type="color" value="#260d0d" for="couleurMorts">
+                Nombre de décès
+            </label>
+        </div>
+
+        <p>Un grand merci à mon prof <a href="https://eliasdorneles.com/">Elias</a> &#128591;</p>
+        <p>Fait avec &#10084; et <a href="https://dmitrybaranovskiy.github.io/raphael/">Snap.svg</a></p>
+        <p><a href="http://snapsvg.io/" class="logo">
+            <img src="logoSnap.svg" alt="Logo">
+        </a>
+        </p>
+    
+    <script src="graph.js"></script>
+
+</body>
+</html>

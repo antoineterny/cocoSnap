@@ -1,0 +1,44 @@
+body {
+    text-align: center;
+    background-color: #EEE;
+    color: #4d4d4d;
+    font-family: 'Teko', sans-serif;
+};
+
+h2 {
+  font-weight: 300;
+}
+
+p {
+    line-height: 1.4;
+}
+
+/* input {
+  height: 1.5em; vertical-align: middle
+} */
+
+a {
+    outline: none;
+    text-decoration: underline dotted;
+    padding: 2px 1px 0;
+  }
+
+.logo img {
+  width: 80px;
+}
+
+a:link {
+  color: #f1bebe;
+}
+
+a:visited {
+  color: #b19743;
+}
+
+a:focus {
+  background: #e49898;
+}
+
+a:hover {    
+  font-weight: bold;
+}
