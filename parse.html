@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<head>
+    <script src="papaparse.min.js"></script>
+</head>
+<body>
+    <script>
+        let myFile = "time_series_covid19_deaths_global.csv";
+        let deaths = Papa.parse(myFile, {
+            delimiter: ",",	
+	        newline: "↵",	
+        })
+    </script>
+</body>

@@ -32,6 +32,14 @@ let data = {
         {"date": "3/29/20", "confirmed_cases": "40174", "deaths": "2606"},
         {"date": "3/30/20", "confirmed_cases": "44550", "deaths": "3024"},
         {"date": "3/31/20", "confirmed_cases": "52128", "deaths": "3523"},
+        {"date": "4/1/20", "confirmed_cases": "56989", "deaths": "4032"},
+        {"date": "4/2/20", "confirmed_cases": "59105", "deaths": "5387"},
+        {"date": "4/3/20", "confirmed_cases": "64338", "deaths": "6507"},
+        {"date": "4/4/20", "confirmed_cases": "89953", "deaths": "7560"},
+        {"date": "4/5/20", "confirmed_cases": "92839", "deaths": "8078"},
+        {"date": "4/6/20", "confirmed_cases": "98010", "deaths": "8911"},
+        {"date": "4/7/20", "confirmed_cases": "109069", "deaths": "10328"},
+        {"date": "4/8/20", "confirmed_cases": "112950", "deaths": "10869"},
     ],
     "Brazil": [
         {"date": "3/1/20", "confirmed_cases": "2", "deaths": "0"},
@@ -65,6 +73,14 @@ let data = {
         {"date": "3/29/20", "confirmed_cases": "4256", "deaths": "136"},
         {"date": "3/30/20", "confirmed_cases": "4579", "deaths": "159"},
         {"date": "3/31/20", "confirmed_cases": "5717", "deaths": "201"},
+        {"date": "4/1/20", "confirmed_cases": "6836", "deaths": "240"},
+        {"date": "4/2/20", "confirmed_cases": "8044", "deaths": "324"},
+        {"date": "4/3/20", "confirmed_cases": "9056", "deaths": "359"},
+        {"date": "4/4/20", "confirmed_cases": "10360", "deaths": "445"},
+        {"date": "4/5/20", "confirmed_cases": "11130", "deaths": "486"},
+        {"date": "4/6/20", "confirmed_cases": "12161", "deaths": "564"},
+        {"date": "4/7/20", "confirmed_cases": "14034", "deaths": "686"},
+        {"date": "4/8/20", "confirmed_cases": "16170", "deaths": "819"},
     ],
     "United Kingdom": [
         {"date": "3/1/20", "confirmed_cases": "36", "deaths": "0"},
@@ -98,6 +114,14 @@ let data = {
         {"date": "3/29/20", "confirmed_cases": "19522", "deaths": "1228"},
         {"date": "3/30/20", "confirmed_cases": "22141", "deaths": "1408"},
         {"date": "3/31/20", "confirmed_cases": "25150", "deaths": "1789"},
+        {"date": "4/1/20", "confirmed_cases": "29474", "deaths": "2352"},
+        {"date": "4/2/20", "confirmed_cases": "33718", "deaths": "2921"},
+        {"date": "4/3/20", "confirmed_cases": "38168", "deaths": "3605"},
+        {"date": "4/4/20", "confirmed_cases": "41903", "deaths": "4313"},
+        {"date": "4/5/20", "confirmed_cases": "47806", "deaths": "4934"},
+        {"date": "4/6/20", "confirmed_cases": "51608", "deaths": "5373"},
+        {"date": "4/7/20", "confirmed_cases": "55242", "deaths": "6159"},
+        {"date": "4/8/20", "confirmed_cases": "60733", "deaths": "7097"},
     ],
 }
 
@@ -118,7 +142,7 @@ for (i=0; i<data.France.length; i++) {
 
 // Configuration du graphique
 let largeurTotale = 1200, hauteurTotale = 600, 
-margeGauche = 45, margeBas = 150, margeDroite = 10, margeHaut = 10, margeTexte = 10;
+margeGauche = 45, margeBas = 200, margeDroite = 10, margeHaut = 10, margeTexte = 10;
 let largeurGraphique = largeurTotale - margeGauche - margeDroite;
 let hauteurGraphique = hauteurTotale - margeBas - margeHaut;
 let paper = Snap("#svgout"); 
@@ -234,6 +258,10 @@ const dessinerGraph = function() {
 };
 
 dessinerGraph();
+
+// Incorporation des drapeaux
+let drapeauFrance = paper.svg()
+
 
 // Changement du pays sélectionné
 function changeEventHandler(event) {
