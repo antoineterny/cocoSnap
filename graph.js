@@ -122,7 +122,7 @@ let largeurTotale = 1200, hauteurTotale = 400,
 margeGauche = 45, margeBas = 25, margeDroite = 10, margeHaut = 10, margeTexte = 10;
 let largeurGraphique = largeurTotale - margeGauche - margeDroite;
 let hauteurGraphique = hauteurTotale - margeBas - margeHaut;
-var paper = Snap("#svgout"); 
+var paper = Snap("#svg", largeurTotale, hauteurTotale); 
 var degradeFond = paper.gradient("l(0, 1, 1, 0)#64B5F6-#FFF");
 var degradeBarresY = paper.gradient("l(1,0,0,1)#b71c1c-#e57373");
 var degradeBarresY2 = paper.gradient("l(1,0,0,1)#000000-#640000");
@@ -202,7 +202,7 @@ const dessinerGraph = function() {
             margeHaut + hauteurGraphique + margeTexte, 
             valeursX[i])
             .attr(
-                {"font-family": "'Teko'", "font-size": "12px", "text-align": "center"}
+                {"font-family": "'Teko'", "font-size": "12px"}
             );
     }
     for (i=1; i<=nbrLignes; i++) {

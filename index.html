@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Test Snap.svg</title>
+    <title>Test Raphael</title>
     <link href="style.css" rel="stylesheet" type="text/css">
     <script src="snap.svg-min.js"></script>
     <style>
@@ -12,9 +12,8 @@
 <body>
     <h1>COVID-19</h1>
     <h2>Cas confirmés et décès en France, au Brésil et au Royaume-Uni</h2>
-    <div id="container">
-        <svg id="svgout" width="100%" height="100%" viewBox="0 0 1200 400"></svg> 
-    </div>
+        <svg id="svg"></svg> 
+
         <form class='choix'>
             <label>Afficher les données pour :</label>
             <input type="button" value="France" onclick="changeEventHandler(event);"></input>
