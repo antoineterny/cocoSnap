@@ -13,7 +13,7 @@
     <h1>COVID-19</h1>
     <h2>Cas confirmés et décès en France, au Brésil et au Royaume-Uni</h2>
     <div id="container">
-        <svg id="svgout" width="100%" height="100%" viewBox="0 0 1200 400"></svg> 
+        <svg id="svgout" width="100%" height="100%" viewBox="0 0 1200 500"></svg> 
     </div>
         <form class='choix'>
             <label>Afficher les données pour :</label>
@@ -26,14 +26,15 @@
 
         <div style="margin-left: auto; margin-right: auto; width: 1000px; text-align: left;">
             <label>
-                <input type="color" value="#8B0000" for="couleurCas">
+                <input type="color" value="#8B0000" id="couleurCas">
                 Nombre de cas confirmés<br>
             </label>
             
             <label>
-                <input type="color" value="#260d0d" for="couleurMorts">
+                <input type="color" value="#260d0d" id="couleurMorts">
                 Nombre de décès
             </label>
+            <p>Vous pouvez changer changer les couleurs en cliquant sur les petits carrés</p>
         </div>
 
         <p>Un grand merci à mon prof <a href="https://eliasdorneles.com/">Elias</a> &#128591;</p>

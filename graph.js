@@ -116,16 +116,33 @@ for (i=0; i<data.France.length; i++) {
     valeursY2[i] = (parseInt(data.France[i].deaths));
 }
 
-
 // Configuration du graphique
-let largeurTotale = 1200, hauteurTotale = 400, 
-margeGauche = 45, margeBas = 25, margeDroite = 10, margeHaut = 10, margeTexte = 10;
+let largeurTotale = 1200, hauteurTotale = 600, 
+margeGauche = 45, margeBas = 150, margeDroite = 10, margeHaut = 10, margeTexte = 10;
 let largeurGraphique = largeurTotale - margeGauche - margeDroite;
 let hauteurGraphique = hauteurTotale - margeBas - margeHaut;
-var paper = Snap("#svgout"); 
-var degradeFond = paper.gradient("l(0, 1, 1, 0)#64B5F6-#FFF");
-var degradeBarresY = paper.gradient("l(1,0,0,1)#b71c1c-#e57373");
-var degradeBarresY2 = paper.gradient("l(1,0,0,1)#000000-#640000");
+let paper = Snap("#svgout"); 
+let degradeFond = paper.gradient("l(0, 1, 1, 0)#64B5F6-#FFF");
+let degradeBarresY = paper.gradient("l(1,0,0,1)#b71c1c-#e57373");
+let degradeBarresY2 = paper.gradient("l(1,0,0,1)#000000-#640000");
+
+// Initialisation couleur par défaut dans le HTML
+let entreeCouleurCas = document.getElementById("couleurCas");
+let couleurCas = entreeCouleurCas.value;
+entreeCouleurCas.addEventListener("input", function() {
+    couleurBarresY = entreeCouleurCas.value;
+    dessinerGraph();
+    }, false);
+    
+let entreeCouleurMorts = document.getElementById("couleurMorts");
+let couleurMorts = entreeCouleurMorts.value;
+entreeCouleurMorts.addEventListener("input", function() {
+    couleurBarresY2 = entreeCouleurMorts.value;
+    dessinerGraph();
+    }, false);
+
+let couleurBarresY = couleurCas;
+let couleurBarresY2 = couleurMorts;
 
 // Dessin du fond du graphique
 const dessinerFond = function () {
@@ -174,7 +191,7 @@ const dessinerGraph = function() {
             proportionBarre * largeurBarre, 
             0)
         .attr({
-            fill: degradeBarresY,
+            fill: couleurBarresY,
             "stroke-width": 0,  
         })
         .transform("r180, " + (margeGauche + i * largeurBarre + (largeurBarre / 2)) + "," + (margeHaut + hauteurGraphique))
@@ -188,7 +205,7 @@ const dessinerGraph = function() {
             proportionBarre * largeurBarre, 
             0)
         .attr({
-            fill: degradeBarresY2,
+            fill: couleurBarresY2,
             "stroke-width": 0,  
         })
         .transform("r180, " + (margeGauche + i * largeurBarre + (largeurBarre / 2)) + "," + (margeHaut + hauteurGraphique))
@@ -243,6 +260,7 @@ function changeEventHandler(event) {
     }
     dessinerGraph();
  }
+
 
 
 
