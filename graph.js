@@ -118,7 +118,7 @@ for (i=0; i<data.France.length; i++) {
 
 
 // Configuration du graphique
-let largeurTotale = 1200, hauteurTotale = 400, 
+let largeurTotale = window.innerWidth*0.8, hauteurTotale = 400, 
 margeGauche = 45, margeBas = 25, margeDroite = 10, margeHaut = 10, margeTexte = 10;
 let largeurGraphique = largeurTotale - margeGauche - margeDroite;
 let hauteurGraphique = hauteurTotale - margeBas - margeHaut;
