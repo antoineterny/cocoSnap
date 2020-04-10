@@ -200,7 +200,8 @@ dessinerLignes();
 let largeurBarre = largeurGraphique / valeursX.length;
 let proportionBarre = 0.7;
 
-console.log(valeursY);
+
+
 // // Fonction dessiner l'intérieur du graphique
 const dessinerGraph = function() {
     dessinerFond();
@@ -240,23 +241,45 @@ const dessinerGraph = function() {
         .append( title2 );
     }
 
+    // Dessiner points et courbes
+    let pathY = "M" + (margeGauche + (largeurBarre / 2)) + "," + (margeHaut + hauteurGraphique - (valeursY[0] / etendueY * hauteurGraphique)) ;
+    
+    for (i=0; i<valeursY.length; i++) {
+        let hauteurBarre = valeursY[i] / etendueY * hauteurGraphique;
+        let title = Snap.parse('<title>' + valeursY[i] + ' cas confirmés au ' + valeursX[i] + '</title>');
+
+        let pointsY = paper.circle(
+            margeGauche + i * largeurBarre + largeurBarre / 2,
+            margeHaut + hauteurGraphique - hauteurBarre,
+            2)
+        .attr({
+            fill: "#000",
+        })
+        .append( title );
+
+        pathY += "L" + (margeGauche + i * largeurBarre + largeurBarre / 2) + "," + (margeHaut + hauteurGraphique - hauteurBarre);
+    }
+    let courbeY = paper
+            .path(pathY)
+            .attr({"stroke-width": 1, stroke: "black", fill: "none"});
+
     // Dessiner le texte
     for (i=0; i<valeursX.length; i++) {
         let texteX = paper.text(
-            margeGauche + i * largeurBarre + ((largeurBarre - largeurBarre*proportionBarre) / 2), 
+            margeGauche + i * largeurBarre + largeurBarre / 2, 
             margeHaut + hauteurGraphique + margeTexte, 
             valeursX[i])
             .attr(
-                {"font-family": "'Teko'", "font-size": "12px", "text-align": "center"}
+                {"font-family": "'Teko'", "font-size": "12px", "textAnchor": "middle", "baseline-shift": "-.7ex"}
             );
     }
     for (i=1; i<=nbrLignes; i++) {
         let texteY = paper.text(
             margeGauche - margeTexte, 
-            margeHaut + i*interligne +3, 
+            margeHaut + i*interligne, 
             etendueY*(nbrLignes+1-i)/(nbrLignes+1))
             .attr(
-                {"text-anchor": "end", "font-family": "'Teko'", "font-size": "12px"}
+                {"textAnchor": "end", "baseline-shift": "-0.5ex","font-family": "'Teko'", "font-size": "12px"}
             );
     }
 };
