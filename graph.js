@@ -209,6 +209,7 @@ const dessinerGraph = function() {
     // Dessiner les barres
     for (i=0; i<valeursY.length; i++) {
         let hauteurBarre = valeursY[i] / etendueY * hauteurGraphique;
+        let title = Snap.parse('<title>' + valeursY[i] + ' cas confirmés au ' + valeursX[i] + '</title>');
         let barre = paper.rect(
             margeGauche + i * largeurBarre + ((largeurBarre - largeurBarre*proportionBarre) / 2),
             margeHaut + hauteurGraphique,
@@ -219,10 +220,12 @@ const dessinerGraph = function() {
             "stroke-width": 0,  
         })
         .transform("r180, " + (margeGauche + i * largeurBarre + (largeurBarre / 2)) + "," + (margeHaut + hauteurGraphique))
-        .animate({height: hauteurBarre}, 800);
+        .animate({height: hauteurBarre}, 800)
+        .append( title );
     }
     for (i=0; i<valeursY2.length; i++) {
         let hauteurBarre = valeursY2[i] / etendueY * hauteurGraphique;
+        let title2 = Snap.parse('<title>' + valeursY2[i] + ' morts au ' + valeursX[i] + '</title>');
         let barre = paper.rect(
             margeGauche + i * largeurBarre + ((largeurBarre - largeurBarre*proportionBarre) / 2),
             margeHaut + hauteurGraphique,
@@ -233,7 +236,8 @@ const dessinerGraph = function() {
             "stroke-width": 0,  
         })
         .transform("r180, " + (margeGauche + i * largeurBarre + (largeurBarre / 2)) + "," + (margeHaut + hauteurGraphique))
-        .animate({height: hauteurBarre}, 800);
+        .animate({height: hauteurBarre}, 800)
+        .append( title2 );
     }
 
     // Dessiner le texte
