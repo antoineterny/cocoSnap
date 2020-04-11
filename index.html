@@ -15,12 +15,20 @@
     <div id="container">
         <svg id="svgout" width="100%" height="100%" viewBox="0 0 1200 500"></svg> 
     </div>
-        <form class='choix'>
+        <form class='choixPays'>
             <label>Afficher les données pour :</label>
             <input type="button" value="France" onclick="changeEventHandler(event);"></input>
             <input type="button" value="Brésil" onclick="changeEventHandler(event);"></input>
             <input type="button" value="Royaume-Uni" onclick="changeEventHandler(event);"></input>
         </form>
+        <form class='choixPresentation'>
+            <label>Choisir une présentation :</label>
+            <input type="radio" id="barres" value="barres" name="choixPres" checked="checked" onclick="changeEventHandler(event);">
+                <label for="barres">Barres</label>
+            <input type="radio" id="lignes" value="lignes" name="choixPres" onclick="changeEventHandler(event);">
+                <label for="lignes">Lignes</label>
+        </form>
+
 
         <!-- <p>En <span id="carre1"></span> les cas confirmés, en <span id="carre2"></span> les décès.</p> -->
 

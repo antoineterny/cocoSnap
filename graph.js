@@ -142,13 +142,16 @@ for (i=0; i<data.France.length; i++) {
 
 // Configuration du graphique
 let largeurTotale = 1200, hauteurTotale = 600, 
-margeGauche = 45, margeBas = 200, margeDroite = 10, margeHaut = 10, margeTexte = 10;
+margeGauche = 45, margeBas = 150, margeDroite = 10, margeHaut = 10, margeTexte = 10;
 let largeurGraphique = largeurTotale - margeGauche - margeDroite;
 let hauteurGraphique = hauteurTotale - margeBas - margeHaut;
 let paper = Snap("#svgout"); 
 let degradeFond = paper.gradient("l(0, 1, 1, 0)#64B5F6-#FFF");
 let degradeBarresY = paper.gradient("l(1,0,0,1)#b71c1c-#e57373");
 let degradeBarresY2 = paper.gradient("l(1,0,0,1)#000000-#640000");
+
+// 
+let choixPresentation = document.getElementsByName("choixPres");
 
 // Initialisation couleur par défaut dans le HTML
 let entreeCouleurCas = document.getElementById("couleurCas");
@@ -167,6 +170,7 @@ entreeCouleurMorts.addEventListener("input", function() {
 
 let couleurBarresY = couleurCas;
 let couleurBarresY2 = couleurMorts;
+
 
 // Dessin du fond du graphique
 const dessinerFond = function () {
@@ -207,61 +211,89 @@ const dessinerGraph = function() {
     dessinerFond();
     dessinerLignes();
 
-    // Dessiner les barres
-    for (i=0; i<valeursY.length; i++) {
-        let hauteurBarre = valeursY[i] / etendueY * hauteurGraphique;
-        let title = Snap.parse('<title>' + valeursY[i] + ' cas confirmés au ' + valeursX[i] + '</title>');
-        let barre = paper.rect(
-            margeGauche + i * largeurBarre + ((largeurBarre - largeurBarre*proportionBarre) / 2),
-            margeHaut + hauteurGraphique,
-            proportionBarre * largeurBarre, 
-            0)
-        .attr({
-            fill: couleurBarresY,
-            "stroke-width": 0,  
-        })
-        .transform("r180, " + (margeGauche + i * largeurBarre + (largeurBarre / 2)) + "," + (margeHaut + hauteurGraphique))
-        .animate({height: hauteurBarre}, 800)
-        .append( title );
-    }
-    for (i=0; i<valeursY2.length; i++) {
-        let hauteurBarre = valeursY2[i] / etendueY * hauteurGraphique;
-        let title2 = Snap.parse('<title>' + valeursY2[i] + ' morts au ' + valeursX[i] + '</title>');
-        let barre = paper.rect(
-            margeGauche + i * largeurBarre + ((largeurBarre - largeurBarre*proportionBarre) / 2),
-            margeHaut + hauteurGraphique,
-            proportionBarre * largeurBarre, 
-            0)
-        .attr({
-            fill: couleurBarresY2,
-            "stroke-width": 0,  
-        })
-        .transform("r180, " + (margeGauche + i * largeurBarre + (largeurBarre / 2)) + "," + (margeHaut + hauteurGraphique))
-        .animate({height: hauteurBarre}, 800)
-        .append( title2 );
-    }
-
+    // if (choixPresentation = "barres") {
+    //     // Dessiner les barres
+    //     for (i=0; i<valeursY.length; i++) {
+    //         let hauteurBarre = valeursY[i] / etendueY * hauteurGraphique;
+    //         let title = Snap.parse('<title>' + valeursY[i] + ' cas confirmés au ' + valeursX[i] + '</title>');
+    //         let barre = paper.rect(
+    //             margeGauche + i * largeurBarre + ((largeurBarre - largeurBarre*proportionBarre) / 2),
+    //             margeHaut + hauteurGraphique,
+    //             proportionBarre * largeurBarre, 
+    //             0)
+    //         .attr({
+    //             fill: couleurBarresY,
+    //             "stroke-width": 0,  
+    //         })
+    //         .transform("r180, " + (margeGauche + i * largeurBarre + (largeurBarre / 2)) + "," + (margeHaut + hauteurGraphique))
+    //         .animate({height: hauteurBarre}, 800)
+    //         .append( title );
+    //     }
+    //     for (i=0; i<valeursY2.length; i++) {
+    //         let hauteurBarre = valeursY2[i] / etendueY * hauteurGraphique;
+    //         let title2 = Snap.parse('<title>' + valeursY2[i] + ' morts au ' + valeursX[i] + '</title>');
+    //         let barre = paper.rect(
+    //             margeGauche + i * largeurBarre + ((largeurBarre - largeurBarre*proportionBarre) / 2),
+    //             margeHaut + hauteurGraphique,
+    //             proportionBarre * largeurBarre, 
+    //             0)
+    //         .attr({
+    //             fill: couleurBarresY2,
+    //             "stroke-width": 0,  
+    //         })
+    //         .transform("r180, " + (margeGauche + i * largeurBarre + (largeurBarre / 2)) + "," + (margeHaut + hauteurGraphique))
+    //         .animate({height: hauteurBarre}, 800)
+    //         .append( title2 );
+    //     }
+    // }
+        
+    // else {
     // Dessiner points et courbes
-    let pathY = "M" + (margeGauche + (largeurBarre / 2)) + "," + (margeHaut + hauteurGraphique - (valeursY[0] / etendueY * hauteurGraphique)) ;
+        let pathY = "M" + (margeGauche + largeurGraphique) + "," + (margeHaut + hauteurGraphique)
+            + "l-" + largeurGraphique + ",0" 
+            + "l0,-" + (valeursY[0] / etendueY * hauteurGraphique);
+        
+        for (i=0; i<valeursY.length; i++) {
+            let hauteurBarre = valeursY[i] / etendueY * hauteurGraphique;
+            let title = Snap.parse('<title>' + valeursY[i] + ' cas confirmés au ' + valeursX[i] + '</title>');
+            let pointsY = paper.circle(
+                margeGauche + i * largeurBarre + largeurBarre / 2,
+                margeHaut + hauteurGraphique - hauteurBarre,
+                4)
+            .attr( {fill: couleurBarresY} )
+            .append( title );
+
+            pathY += "L" + (margeGauche + i * largeurBarre + largeurBarre / 2) + "," + (margeHaut + hauteurGraphique - hauteurBarre);
+        }
+
+        let courbeY = paper
+                .path(pathY 
+                    + "l" + (largeurBarre / 2) + "," + "0 " + "Z")
+                .attr({"stroke-width": 0, fill: couleurBarresY, "fill-opacity": "60%"});
+                
+        let pathY2 = "M" + (margeGauche + largeurGraphique) + "," + (margeHaut + hauteurGraphique)
+            + "l-" + largeurGraphique + ",0" 
+            + "l0,-" + (valeursY[0] / etendueY * hauteurGraphique);
+        
+        for (i=0; i<valeursY2.length; i++) {
+            let hauteurBarre = valeursY2[i] / etendueY * hauteurGraphique;
+            let title = Snap.parse('<title>' + valeursY2[i] + ' morts au ' + valeursX[i] + '</title>');
+            let pointsY = paper.circle(
+                margeGauche + i * largeurBarre + largeurBarre / 2,
+                margeHaut + hauteurGraphique - hauteurBarre,
+                4)
+            .attr( {fill: couleurBarresY2} )
+            .append( title );
+
+            pathY2 += "L" + (margeGauche + i * largeurBarre + largeurBarre / 2) + "," + (margeHaut + hauteurGraphique - hauteurBarre);
+        }
+        
+        let courbeY2 = paper
+                .path(pathY2 
+                    + "l" + (largeurBarre / 2) + "," + "0 " + "Z")
+                .attr({"stroke-width": 0, fill: couleurBarresY2, "fill-opacity": "60%"});
     
-    for (i=0; i<valeursY.length; i++) {
-        let hauteurBarre = valeursY[i] / etendueY * hauteurGraphique;
-        let title = Snap.parse('<title>' + valeursY[i] + ' cas confirmés au ' + valeursX[i] + '</title>');
-
-        let pointsY = paper.circle(
-            margeGauche + i * largeurBarre + largeurBarre / 2,
-            margeHaut + hauteurGraphique - hauteurBarre,
-            2)
-        .attr({
-            fill: "#000",
-        })
-        .append( title );
-
-        pathY += "L" + (margeGauche + i * largeurBarre + largeurBarre / 2) + "," + (margeHaut + hauteurGraphique - hauteurBarre);
-    }
-    let courbeY = paper
-            .path(pathY)
-            .attr({"stroke-width": 1, stroke: "black", fill: "none"});
+    // }
 
     // Dessiner le texte
     for (i=0; i<valeursX.length; i++) {
@@ -270,7 +302,7 @@ const dessinerGraph = function() {
             margeHaut + hauteurGraphique + margeTexte, 
             valeursX[i])
             .attr(
-                {"font-family": "'Teko'", "font-size": "12px", "textAnchor": "middle", "baseline-shift": "-.7ex"}
+                {"font-family": "'Teko'", "font-size": "12px", "textAnchor": "middle", "baseline-shift": "-1ex"}
             );
     }
     for (i=1; i<=nbrLignes; i++) {
