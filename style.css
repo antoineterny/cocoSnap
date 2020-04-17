@@ -1,21 +1,17 @@
 body {
     text-align: center;
-    background-color: #fff;
+    background-color: #eee;
     color: #4d4d4d;
-    font-family: 'Teko', sans-serif;
-};
+    font-family: 'Roboto Condensed', sans-serif;
+}
 
 h2 {
   font-weight: 300;
 }
 
-p {
-    font-size: 1.2rem;
+input {
+  margin-right: 1px;
 }
-
-/* input {
-  height: 1.5em; vertical-align: middle
-} */
 
 a {
     outline: none;
@@ -28,7 +24,7 @@ a {
 }
 
 a:link {
-  color: #f1bebe;
+  color: #64da77;
 }
 
 a:visited {
@@ -41,4 +37,23 @@ a:focus {
 
 a:hover {    
   font-weight: bold;
+}
+
+form {
+  display: inline-block;
+}
+
+
+form#choixPays {
+  float: left;
+  text-align: left;
+}
+
+form#choixPresentation {
+  float: right;
+  text-align: right;
+}
+
+output {
+  margin-left: .5em;
 }

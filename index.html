@@ -6,34 +6,54 @@
     <link href="style.css" rel="stylesheet" type="text/css">
     <script src="snap.svg-min.js"></script>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap');
+        @import url('<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">');
     </style>
 </head>
 <body>
     <h1>COVID-19</h1>
-    <h2>Cas confirmés et décès en France, au Brésil et au Royaume-Uni d'après les données de </h2>
+    <h2>Cas confirmés et décès en France, au Brésil et au Royaume-Uni<br>
+        d'après les données de la <a href="https://coronavirus.jhu.edu/">John Hopkins University</a></h2>
     <div id="container">
-        <svg id="svgout" width="100%" height="100%" viewBox="0 0 1200 500"></svg> 
+        <svg id="svgout" width="100%" height="100%" viewBox="0 0 1200 600"></svg> 
     </div>
-        <form class='choixPays'>
-            <label>Afficher les données pour :</label>
-            <input type="button" value="France" onclick="changeEventHandler(event);"></input>
-            <input type="button" value="Brésil" onclick="changeEventHandler(event);"></input>
-            <input type="button" value="Royaume-Uni" onclick="changeEventHandler(event);"></input>
-        </form>
-        <form class='choixPresentation'>
-            <label>Choisir une présentation :</label>
-            <input type="radio" id="barres" value="barres" name="choixPres" checked="checked" onclick="changeEventHandler(event);">
-                <label for="barres">Barres</label>
-            <input type="radio" id="lignes" value="lignes" name="choixPres" onclick="changeEventHandler(event);">
-                <label for="lignes">Lignes</label>
+        <form id="choixPays">
+            <label>Afficher les données pour :<br>
+                <label>
+                    <input type="radio" name="choixPays" value="France" country="France" onclick="changeEventHandler(event);" checked="checked" ></input>
+                    France
+                </label>
+                <label>
+                    <input type="radio" name="choixPays" value="Brésil" country="Brazil" onclick="changeEventHandler(event);"></input>
+                    Brésil
+                </label>
+                <label>
+                    <input type="radio" name="choixPays" value="Royaume-Uni" country="United Kingdom" onclick="changeEventHandler(event);"></input>
+                    Royaume-Uni
+                </label>
+            </label>
         </form>
 
+        <form id="dateRangeForm">
+            <label for="dateRangeForm">Étendue temporelle</label><br>
+            <input type="range" id="dateRange" name="dateRange" min="15" max="60" step="1" value="30">
+            <output></output>
+        </form>
 
-        <!-- <p>En <span id="carre1"></span> les cas confirmés, en <span id="carre2"></span> les décès.</p> -->
+        <form id='choixPresentation'>
+            <label>Choisir une présentation :<br>
+                <label>
+                    <input type="radio" id="barres" value="barres" name="choixPres" checked="checked" onclick="changeEventHandler(event);">
+                    Barres
+                </label>
+                <label>
+                    <input type="radio" id="lignes" value="lignes" name="choixPres" onclick="changeEventHandler(event);">
+                    Lignes
+                </label>
+            </label>
+        </form>
 
         <div style="margin-left: auto; margin-right: auto; width: 1000px; text-align: left;">
-            <p>Laissez votre souris sur une barre pour une lecture précise du nombre de cas confirmés ou de morts.</p>
+            <p>Laissez votre souris sur une barre (ou un point, les cas échéant) pour une lecture précise du nombre de cas confirmés ou de morts.</p>
             <p>Vous pouvez changer les couleurs en cliquant sur les petits carrés (je sais ça ne sert à rien mais tout ceci n'est qu'un exercice) :</p>
             <label>
                 <input type="color" value="#8B0000" id="couleurCas">
