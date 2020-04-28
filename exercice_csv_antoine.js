@@ -11,7 +11,11 @@ const rl2 = readline.createInterface({
   crlfDelay: Infinity
 });
 
-let selectedCountries = ["Brazil", "France", "United Kingdom"]
+let selectedCountries = [
+  "Brazil", 
+  "France", 
+  // "United Kingdom"
+]
 let lineNumber = 1
 let data = {}
 
