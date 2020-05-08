@@ -47,7 +47,7 @@ form {
 
 
 form#choixPays {
-  float: left;
+  /* float: left; */
   text-align: left;
 }
 

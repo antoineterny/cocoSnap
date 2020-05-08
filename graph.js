@@ -28,14 +28,26 @@ function processData ( country, nbrDays ) {
         valeursY2[i] = (parseInt(data[country][decalage + i].deaths));
     }
 }
-processData("France", 30);
+processData("France", 61);
+
+// Déterminer la valeur maximale de la dernière donnée "confirmed_cases" (marche pour le moment car ce ne sont que des courbes ascendantes, mais ne marchera plus quand ça commencera à descendre)
+const maxConf = [];
+for (const pays in data) {
+    let max = Number(data[pays][data[pays].length-1]["confirmed_cases"]);
+    maxConf.push( {pays, max} );
+}
+let maxConfCountry = maxConf[0];
+for (let i=0; i<maxConf.length; i++) {
+    if (maxConf[i]["max"] > maxConfCountry.max) {
+        maxConfCountry = maxConf[i];
+    }
+}
+let maxY = maxConfCountry.max - maxConfCountry.max%10000 + 10000;
 
 // Configuration du graphique
-
 let paper = Snap("#svgout"); 
 
-
-// Choix de la présentation À FAIRE !!!
+// TODO Choix de la présentation 
 let choixPresentation = document.getElementsByName("choixPres").value;
 
 // Initialisation couleur par défaut dans le HTML
@@ -53,8 +65,6 @@ entreeCouleurMorts.addEventListener("input", function() {
     couleurBarresY2 = entreeCouleurMorts.value;
     dessinerGraph(paper, valeursX, valeursY, valeursY2, couleurBarresY, couleurBarresY2);
     }, false);
-
-
 
 
 
@@ -77,8 +87,6 @@ const dessinerGraph = function(paper, valeursX, valeursY, valeursY2, couleurBarr
     dessinerFond();
 
     // Dessiner les lignes horizontales en fonction du tableau
-    let maxY = 200000;
-    // TODO: À calculer à partir des max de chaque pays
     let ordreDeGrandeur = (maxY < 20000) ? 1000 : 10000;
     let etendueY = (Math.ceil(maxY/ordreDeGrandeur))*ordreDeGrandeur;
     let nbrLignes = (etendueY/ordreDeGrandeur) - 1;
@@ -109,7 +117,7 @@ const dessinerGraph = function(paper, valeursX, valeursY, valeursY2, couleurBarr
                 "stroke-width": 0,  
             })
             .transform("r180, " + (margeGauche + i * largeurBarre + (largeurBarre / 2)) + "," + (margeHaut + hauteurGraphique))
-            .animate({height: hauteurBarre}, 800)
+            .animate({height: hauteurBarre}, 1000)
             .append( title );
         }
         for (i=0; i<valeursY2.length; i++) {
@@ -125,14 +133,14 @@ const dessinerGraph = function(paper, valeursX, valeursY, valeursY2, couleurBarr
                 "stroke-width": 0,  
             })
             .transform("r180, " + (margeGauche + i * largeurBarre + (largeurBarre / 2)) + "," + (margeHaut + hauteurGraphique))
-            .animate({height: hauteurBarre}, 800)
+            .animate({height: hauteurBarre}, 1000)
             .append( title2 );
         }
     }
     dessinerBarres();
 
     // Dessiner le texte
-    for (i=0; i<valeursX.length; i++) {
+    for (i=0; i<valeursX.length; i+=2) {
         let texteX = paper.text(
             margeGauche + i * largeurBarre + largeurBarre / 2, 
             margeHaut + hauteurGraphique + margeTexte, 
@@ -154,11 +162,8 @@ const dessinerGraph = function(paper, valeursX, valeursY, valeursY2, couleurBarr
 
 dessinerGraph(paper, valeursX, valeursY, valeursY2, couleurBarresY, couleurBarresY2);
 
-// Incorporation des drapeaux
-let drapeauFrance = paper.svg()
-
 function changeEventHandler(event) {
-    processData(event.target.getAttribute("country"), 30);
+    processData(event.target.getAttribute("country"), 61);
    
     dessinerGraph(paper, valeursX, valeursY, valeursY2, couleurBarresY, couleurBarresY2);
  }

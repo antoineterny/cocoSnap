@@ -6,15 +6,18 @@ const rl = readline.createInterface({
   crlfDelay: Infinity
 });
 
-const rl2 = readline.createInterface({
-  input: fs.createReadStream('deaths_global.txt'),
-  crlfDelay: Infinity
-});
+
 
 let selectedCountries = [
   "Brazil", 
   "France", 
-  // "United Kingdom"
+  "United Kingdom",
+  "Germany",
+  "Spain",
+  "Italy",
+  "Sweden",
+  "Iran",
+  "Russia"
 ]
 let lineNumber = 1
 let data = {}
@@ -43,37 +46,44 @@ rl.on('line', (line) => {
 
 rl.on('close', () => {
   console.log('Finished processing confirmed_global.txt ')
-})
 
-rl2.on('line', (line) => {
-  let lineArray = line.split(","); 
+  const rl2 = readline.createInterface({
+    input: fs.createReadStream('deaths_global.txt'),
+    crlfDelay: Infinity
+  });
 
-  if (lineNumber === 1) {
-    dates = lineArray.slice(4);
-  }
-
-  else {
-    let provinceOfLine = lineArray[0], countryOfLine = lineArray[1];
-    let deaths = lineArray.slice(4);
-
-    if (selectedCountries.includes(countryOfLine) && provinceOfLine === "") { 
-      for (i=0; i<deaths.length; i++){
-        data[countryOfLine][i]["deaths"] = deaths[i];
+  rl2.on('line', (line) => {
+    let lineArray = line.split(","); 
+  
+    if (lineNumber === 1) {
+      dates = lineArray.slice(4);
+    }
+  
+    else {
+      let provinceOfLine = lineArray[0], countryOfLine = lineArray[1];
+      let deaths = lineArray.slice(4);
+  
+      if (selectedCountries.includes(countryOfLine) && provinceOfLine === "") { 
+        for (i=0; i<deaths.length; i++){
+          data[countryOfLine][i]["deaths"] = deaths[i];
+        }
       }
     }
-  }
-
-  lineNumber += 1
-});
-
-
-rl2.on('close', () => {
-  fs.writeFile('data.json', (JSON.stringify(data)), err => {
-    if (err) {
-      console.error(err)
-      return
-    }
+  
+    lineNumber += 1
+  });
+  
+  
+  rl2.on('close', () => {
+    fs.writeFile('data.json', (JSON.stringify(data)), err => {
+      if (err) {
+        console.error(err)
+        return
+      }
+    })
+    console.log(data);
+    console.log('Finished processing files')
   })
-  console.log(data);
-  console.log('Finished processing files')
+
 })
+
