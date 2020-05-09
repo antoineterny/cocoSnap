@@ -75,7 +75,7 @@ rl.on('close', () => {
   
   
   rl2.on('close', () => {
-    fs.writeFile('data.json', (JSON.stringify(data)), err => {
+    fs.writeFile('data.json', (JSON.stringify(data, null, 2)), err => {
       if (err) {
         console.error(err)
         return

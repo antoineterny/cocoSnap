@@ -28,7 +28,8 @@ function processData ( country, nbrDays ) {
         valeursY2[i] = (parseInt(data[country][decalage + i].deaths));
     }
 }
-processData("France", 61);
+let joursAffiches = 60;
+processData("France", joursAffiches);
 
 // Déterminer la valeur maximale de la dernière donnée "confirmed_cases" (marche pour le moment car ce ne sont que des courbes ascendantes, mais ne marchera plus quand ça commencera à descendre)
 const maxConf = [];
@@ -140,7 +141,8 @@ const dessinerGraph = function(paper, valeursX, valeursY, valeursY2, couleurBarr
     dessinerBarres();
 
     // Dessiner le texte
-    for (i=0; i<valeursX.length; i+=2) {
+    let step = (valeursX.length < 45) ? 1 : 2;
+    for (let i=0; i<valeursX.length; i+=step) {
         let texteX = paper.text(
             margeGauche + i * largeurBarre + largeurBarre / 2, 
             margeHaut + hauteurGraphique + margeTexte, 
@@ -149,7 +151,7 @@ const dessinerGraph = function(paper, valeursX, valeursY, valeursY2, couleurBarr
                 {"font-family": "'Roboto Condensed'", "font-size": "12px", "textAnchor": "middle", "baseline-shift": "-1ex"}
             );
     }
-    for (i=1; i<=nbrLignes; i++) {
+    for (let i=1; i<=nbrLignes; i++) {
         let texteY = paper.text(
             margeGauche - margeTexte, 
             margeHaut + i*interligne, 
@@ -163,7 +165,7 @@ const dessinerGraph = function(paper, valeursX, valeursY, valeursY2, couleurBarr
 dessinerGraph(paper, valeursX, valeursY, valeursY2, couleurBarresY, couleurBarresY2);
 
 function changeEventHandler(event) {
-    processData(event.target.getAttribute("country"), 61);
+    processData(event.target.getAttribute("country"), joursAffiches);
    
     dessinerGraph(paper, valeursX, valeursY, valeursY2, couleurBarresY, couleurBarresY2);
  }
