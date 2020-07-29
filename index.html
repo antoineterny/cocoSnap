@@ -5,93 +5,26 @@
     <title>Test Snap.svg</title>
     <link href="style.css" rel="stylesheet" type="text/css">
     <script src="snap.svg-min.js"></script>
-    <style>
-        @import url('<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">');
-    </style>
 </head>
 <body>
     <h1>COVID-19</h1>
     <h2>Cas confirmés et décès en France, au Brésil et au Royaume-Uni<br>
         d'après les données de la <a href="https://coronavirus.jhu.edu/">John Hopkins University</a></h2>
+    <p id="patience">Patience, le téléchargement des données peut prendre beaucoup de temps...</p>
     <div id="container">
         <svg id="svgout" width="100%" height="100%" viewBox="0 0 1200 600"></svg> 
     </div>
     <form id="choixPays">
-        <label>Afficher les données pour :<br>
-            <label>
-                <input type="radio" name="choixPays" value="France" country="France" onclick="changeEventHandler(event);" checked="checked" ></input>
-                France
-            </label>
-            <label>
-                <input type="radio" name="choixPays" value="Brésil" country="Brazil" onclick="changeEventHandler(event);"></input>
-                Brésil
-            </label>
-            <label>
-                <input type="radio" name="choixPays" value="Royaume-Uni" country="United Kingdom" onclick="changeEventHandler(event);"></input>
-                Royaume-Uni
-            </label>
-            <label>
-                <input type="radio" name="choixPays" value="Allemagne" country="Germany" onclick="changeEventHandler(event);"></input>
-                Allemagne
-            </label>
-            <label>
-                <input type="radio" name="choixPays" value="Espagne" country="Spain" onclick="changeEventHandler(event);"></input>
-                Espagne
-            </label>
-            <label>
-                <input type="radio" name="choixPays" value="Italie" country="Italy" onclick="changeEventHandler(event);"></input>
-                Italie
-            </label>
-            <label>
-                <input type="radio" name="choixPays" value="Suède" country="Sweden" onclick="changeEventHandler(event);"></input>
-                Suède
-            </label>
-            <label>
-                <input type="radio" name="choixPays" value="Iran" country="Iran" onclick="changeEventHandler(event);"></input>
-                Iran
-            </label>
-            <label>
-                <input type="radio" name="choixPays" value="Russie" country="Russia" onclick="changeEventHandler(event);"></input>
-                Russie
-            </label>
-        </label>
+        Afficher les données pour :<br>
     </form>
-
-        <!-- <form id="dateRangeForm">
-            <label for="dateRangeForm">Étendue temporelle</label><br>
-            <input type="range" id="dateRange" name="dateRange" min="15" max="60" step="1" value="30">
+    <br>
+        <form id="dateRangeForm">
+            <label for="dateRangeForm">Étendue temporelle</label>
+            <input type="range" id="dateRange" name="dateRange" min="30" max="180" step="1" value="90">
             <output></output>
         </form>
-
-        <form id='choixPresentation'>
-            <label>Choisir une présentation :<br>
-                <label>
-                    <input type="radio" id="barres" value="barres" name="choixPres" checked="checked" onclick="changeEventHandler(event);">
-                    Barres
-                </label>
-                <label>
-                    <input type="radio" id="lignes" value="lignes" name="choixPres" onclick="changeEventHandler(event);">
-                    Lignes
-                </label>
-            </label>
-        </form> -->
-
-        <div style="margin-left: auto; margin-right: auto; width: 1000px; text-align: left;">
-            <p>Laissez votre souris sur une barre (ou un point, les cas échéant) pour une lecture précise du nombre de cas confirmés ou de morts.</p>
-            <p>Vous pouvez changer les couleurs en cliquant sur les petits carrés (je sais ça ne sert à rien mais tout ceci n'est qu'un exercice) :</p>
-            <label>
-                <input type="color" value="#8B0000" id="couleurCas">
-                Nombre de cas confirmés<br>
-            </label>
-            
-            <label>
-                <input type="color" value="#260d0d" id="couleurMorts">
-                Nombre de décès
-            </label>
-        </div>
-
         <p>Un grand merci à mon prof <a href="https://eliasdorneles.com/">Elias</a> &#128591;</p>
-        <p>Fait avec &#10084; et <a href="https://dmitrybaranovskiy.github.io/raphael/">Snap.svg</a></p>
+        <p>Fait avec &#10084; et <a href="http://snapsvg.io/">Snap.svg</a></p>
         <p><a href="http://snapsvg.io/" class="logo">
             <img src="logoSnap.svg" alt="Logo">
         </a>

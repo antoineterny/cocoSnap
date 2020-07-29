@@ -9,15 +9,15 @@ const rl = readline.createInterface({
 
 
 let selectedCountries = [
-  "Brazil", 
+  // "Brazil", 
   "France", 
   "United Kingdom",
   "Germany",
   "Spain",
   "Italy",
   "Sweden",
-  "Iran",
-  "Russia"
+  // "Iran",
+  // "Russia"
 ]
 let lineNumber = 1
 let data = {}

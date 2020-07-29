@@ -1,546 +1,4 @@
 {
-  "Brazil": [
-    {
-      "date": "1/22/20",
-      "confirmed_cases": "0",
-      "deaths": "0"
-    },
-    {
-      "date": "1/23/20",
-      "confirmed_cases": "0",
-      "deaths": "0"
-    },
-    {
-      "date": "1/24/20",
-      "confirmed_cases": "0",
-      "deaths": "0"
-    },
-    {
-      "date": "1/25/20",
-      "confirmed_cases": "0",
-      "deaths": "0"
-    },
-    {
-      "date": "1/26/20",
-      "confirmed_cases": "0",
-      "deaths": "0"
-    },
-    {
-      "date": "1/27/20",
-      "confirmed_cases": "0",
-      "deaths": "0"
-    },
-    {
-      "date": "1/28/20",
-      "confirmed_cases": "0",
-      "deaths": "0"
-    },
-    {
-      "date": "1/29/20",
-      "confirmed_cases": "0",
-      "deaths": "0"
-    },
-    {
-      "date": "1/30/20",
-      "confirmed_cases": "0",
-      "deaths": "0"
-    },
-    {
-      "date": "1/31/20",
-      "confirmed_cases": "0",
-      "deaths": "0"
-    },
-    {
-      "date": "2/1/20",
-      "confirmed_cases": "0",
-      "deaths": "0"
-    },
-    {
-      "date": "2/2/20",
-      "confirmed_cases": "0",
-      "deaths": "0"
-    },
-    {
-      "date": "2/3/20",
-      "confirmed_cases": "0",
-      "deaths": "0"
-    },
-    {
-      "date": "2/4/20",
-      "confirmed_cases": "0",
-      "deaths": "0"
-    },
-    {
-      "date": "2/5/20",
-      "confirmed_cases": "0",
-      "deaths": "0"
-    },
-    {
-      "date": "2/6/20",
-      "confirmed_cases": "0",
-      "deaths": "0"
-    },
-    {
-      "date": "2/7/20",
-      "confirmed_cases": "0",
-      "deaths": "0"
-    },
-    {
-      "date": "2/8/20",
-      "confirmed_cases": "0",
-      "deaths": "0"
-    },
-    {
-      "date": "2/9/20",
-      "confirmed_cases": "0",
-      "deaths": "0"
-    },
-    {
-      "date": "2/10/20",
-      "confirmed_cases": "0",
-      "deaths": "0"
-    },
-    {
-      "date": "2/11/20",
-      "confirmed_cases": "0",
-      "deaths": "0"
-    },
-    {
-      "date": "2/12/20",
-      "confirmed_cases": "0",
-      "deaths": "0"
-    },
-    {
-      "date": "2/13/20",
-      "confirmed_cases": "0",
-      "deaths": "0"
-    },
-    {
-      "date": "2/14/20",
-      "confirmed_cases": "0",
-      "deaths": "0"
-    },
-    {
-      "date": "2/15/20",
-      "confirmed_cases": "0",
-      "deaths": "0"
-    },
-    {
-      "date": "2/16/20",
-      "confirmed_cases": "0",
-      "deaths": "0"
-    },
-    {
-      "date": "2/17/20",
-      "confirmed_cases": "0",
-      "deaths": "0"
-    },
-    {
-      "date": "2/18/20",
-      "confirmed_cases": "0",
-      "deaths": "0"
-    },
-    {
-      "date": "2/19/20",
-      "confirmed_cases": "0",
-      "deaths": "0"
-    },
-    {
-      "date": "2/20/20",
-      "confirmed_cases": "0",
-      "deaths": "0"
-    },
-    {
-      "date": "2/21/20",
-      "confirmed_cases": "0",
-      "deaths": "0"
-    },
-    {
-      "date": "2/22/20",
-      "confirmed_cases": "0",
-      "deaths": "0"
-    },
-    {
-      "date": "2/23/20",
-      "confirmed_cases": "0",
-      "deaths": "0"
-    },
-    {
-      "date": "2/24/20",
-      "confirmed_cases": "0",
-      "deaths": "0"
-    },
-    {
-      "date": "2/25/20",
-      "confirmed_cases": "0",
-      "deaths": "0"
-    },
-    {
-      "date": "2/26/20",
-      "confirmed_cases": "1",
-      "deaths": "0"
-    },
-    {
-      "date": "2/27/20",
-      "confirmed_cases": "1",
-      "deaths": "0"
-    },
-    {
-      "date": "2/28/20",
-      "confirmed_cases": "1",
-      "deaths": "0"
-    },
-    {
-      "date": "2/29/20",
-      "confirmed_cases": "2",
-      "deaths": "0"
-    },
-    {
-      "date": "3/1/20",
-      "confirmed_cases": "2",
-      "deaths": "0"
-    },
-    {
-      "date": "3/2/20",
-      "confirmed_cases": "2",
-      "deaths": "0"
-    },
-    {
-      "date": "3/3/20",
-      "confirmed_cases": "2",
-      "deaths": "0"
-    },
-    {
-      "date": "3/4/20",
-      "confirmed_cases": "4",
-      "deaths": "0"
-    },
-    {
-      "date": "3/5/20",
-      "confirmed_cases": "4",
-      "deaths": "0"
-    },
-    {
-      "date": "3/6/20",
-      "confirmed_cases": "13",
-      "deaths": "0"
-    },
-    {
-      "date": "3/7/20",
-      "confirmed_cases": "13",
-      "deaths": "0"
-    },
-    {
-      "date": "3/8/20",
-      "confirmed_cases": "20",
-      "deaths": "0"
-    },
-    {
-      "date": "3/9/20",
-      "confirmed_cases": "25",
-      "deaths": "0"
-    },
-    {
-      "date": "3/10/20",
-      "confirmed_cases": "31",
-      "deaths": "0"
-    },
-    {
-      "date": "3/11/20",
-      "confirmed_cases": "38",
-      "deaths": "0"
-    },
-    {
-      "date": "3/12/20",
-      "confirmed_cases": "52",
-      "deaths": "0"
-    },
-    {
-      "date": "3/13/20",
-      "confirmed_cases": "151",
-      "deaths": "0"
-    },
-    {
-      "date": "3/14/20",
-      "confirmed_cases": "151",
-      "deaths": "0"
-    },
-    {
-      "date": "3/15/20",
-      "confirmed_cases": "162",
-      "deaths": "0"
-    },
-    {
-      "date": "3/16/20",
-      "confirmed_cases": "200",
-      "deaths": "0"
-    },
-    {
-      "date": "3/17/20",
-      "confirmed_cases": "321",
-      "deaths": "1"
-    },
-    {
-      "date": "3/18/20",
-      "confirmed_cases": "372",
-      "deaths": "3"
-    },
-    {
-      "date": "3/19/20",
-      "confirmed_cases": "621",
-      "deaths": "6"
-    },
-    {
-      "date": "3/20/20",
-      "confirmed_cases": "793",
-      "deaths": "11"
-    },
-    {
-      "date": "3/21/20",
-      "confirmed_cases": "1021",
-      "deaths": "15"
-    },
-    {
-      "date": "3/22/20",
-      "confirmed_cases": "1546",
-      "deaths": "25"
-    },
-    {
-      "date": "3/23/20",
-      "confirmed_cases": "1924",
-      "deaths": "34"
-    },
-    {
-      "date": "3/24/20",
-      "confirmed_cases": "2247",
-      "deaths": "46"
-    },
-    {
-      "date": "3/25/20",
-      "confirmed_cases": "2554",
-      "deaths": "59"
-    },
-    {
-      "date": "3/26/20",
-      "confirmed_cases": "2985",
-      "deaths": "77"
-    },
-    {
-      "date": "3/27/20",
-      "confirmed_cases": "3417",
-      "deaths": "92"
-    },
-    {
-      "date": "3/28/20",
-      "confirmed_cases": "3904",
-      "deaths": "111"
-    },
-    {
-      "date": "3/29/20",
-      "confirmed_cases": "4256",
-      "deaths": "136"
-    },
-    {
-      "date": "3/30/20",
-      "confirmed_cases": "4579",
-      "deaths": "159"
-    },
-    {
-      "date": "3/31/20",
-      "confirmed_cases": "5717",
-      "deaths": "201"
-    },
-    {
-      "date": "4/1/20",
-      "confirmed_cases": "6836",
-      "deaths": "240"
-    },
-    {
-      "date": "4/2/20",
-      "confirmed_cases": "8044",
-      "deaths": "324"
-    },
-    {
-      "date": "4/3/20",
-      "confirmed_cases": "9056",
-      "deaths": "359"
-    },
-    {
-      "date": "4/4/20",
-      "confirmed_cases": "10360",
-      "deaths": "445"
-    },
-    {
-      "date": "4/5/20",
-      "confirmed_cases": "11130",
-      "deaths": "486"
-    },
-    {
-      "date": "4/6/20",
-      "confirmed_cases": "12161",
-      "deaths": "564"
-    },
-    {
-      "date": "4/7/20",
-      "confirmed_cases": "14034",
-      "deaths": "686"
-    },
-    {
-      "date": "4/8/20",
-      "confirmed_cases": "16170",
-      "deaths": "819"
-    },
-    {
-      "date": "4/9/20",
-      "confirmed_cases": "18092",
-      "deaths": "950"
-    },
-    {
-      "date": "4/10/20",
-      "confirmed_cases": "19638",
-      "deaths": "1057"
-    },
-    {
-      "date": "4/11/20",
-      "confirmed_cases": "20727",
-      "deaths": "1124"
-    },
-    {
-      "date": "4/12/20",
-      "confirmed_cases": "22192",
-      "deaths": "1223"
-    },
-    {
-      "date": "4/13/20",
-      "confirmed_cases": "23430",
-      "deaths": "1328"
-    },
-    {
-      "date": "4/14/20",
-      "confirmed_cases": "25262",
-      "deaths": "1532"
-    },
-    {
-      "date": "4/15/20",
-      "confirmed_cases": "28320",
-      "deaths": "1736"
-    },
-    {
-      "date": "4/16/20",
-      "confirmed_cases": "30425",
-      "deaths": "1924"
-    },
-    {
-      "date": "4/17/20",
-      "confirmed_cases": "33682",
-      "deaths": "2141"
-    },
-    {
-      "date": "4/18/20",
-      "confirmed_cases": "36658",
-      "deaths": "2354"
-    },
-    {
-      "date": "4/19/20",
-      "confirmed_cases": "38654",
-      "deaths": "2462"
-    },
-    {
-      "date": "4/20/20",
-      "confirmed_cases": "40743",
-      "deaths": "2587"
-    },
-    {
-      "date": "4/21/20",
-      "confirmed_cases": "43079",
-      "deaths": "2741"
-    },
-    {
-      "date": "4/22/20",
-      "confirmed_cases": "45757",
-      "deaths": "2906"
-    },
-    {
-      "date": "4/23/20",
-      "confirmed_cases": "50036",
-      "deaths": "3331"
-    },
-    {
-      "date": "4/24/20",
-      "confirmed_cases": "54043",
-      "deaths": "3704"
-    },
-    {
-      "date": "4/25/20",
-      "confirmed_cases": "59324",
-      "deaths": "4057"
-    },
-    {
-      "date": "4/26/20",
-      "confirmed_cases": "63100",
-      "deaths": "4286"
-    },
-    {
-      "date": "4/27/20",
-      "confirmed_cases": "67446",
-      "deaths": "4603"
-    },
-    {
-      "date": "4/28/20",
-      "confirmed_cases": "73235",
-      "deaths": "5083"
-    },
-    {
-      "date": "4/29/20",
-      "confirmed_cases": "79685",
-      "deaths": "5513"
-    },
-    {
-      "date": "4/30/20",
-      "confirmed_cases": "87187",
-      "deaths": "6006"
-    },
-    {
-      "date": "5/1/20",
-      "confirmed_cases": "92202",
-      "deaths": "6412"
-    },
-    {
-      "date": "5/2/20",
-      "confirmed_cases": "97100",
-      "deaths": "6761"
-    },
-    {
-      "date": "5/3/20",
-      "confirmed_cases": "101826",
-      "deaths": "7051"
-    },
-    {
-      "date": "5/4/20",
-      "confirmed_cases": "108620",
-      "deaths": "7367"
-    },
-    {
-      "date": "5/5/20",
-      "confirmed_cases": "115455",
-      "deaths": "7938"
-    },
-    {
-      "date": "5/6/20",
-      "confirmed_cases": "126611",
-      "deaths": "8588"
-    },
-    {
-      "date": "5/7/20",
-      "confirmed_cases": "135773",
-      "deaths": "9190"
-    },
-    {
-      "date": "5/8/20",
-      "confirmed_cases": "146894",
-      "deaths": "10017"
-    }
-  ],
   "France": [
     {
       "date": "1/22/20",
@@ -1081,6 +539,401 @@
       "date": "5/8/20",
       "confirmed_cases": "174318",
       "deaths": "26192"
+    },
+    {
+      "date": "5/9/20",
+      "confirmed_cases": "174758",
+      "deaths": "26271"
+    },
+    {
+      "date": "5/10/20",
+      "confirmed_cases": "175027",
+      "deaths": "26341"
+    },
+    {
+      "date": "5/11/20",
+      "confirmed_cases": "175479",
+      "deaths": "26604"
+    },
+    {
+      "date": "5/12/20",
+      "confirmed_cases": "176207",
+      "deaths": "26951"
+    },
+    {
+      "date": "5/13/20",
+      "confirmed_cases": "175981",
+      "deaths": "27032"
+    },
+    {
+      "date": "5/14/20",
+      "confirmed_cases": "176712",
+      "deaths": "27381"
+    },
+    {
+      "date": "5/15/20",
+      "confirmed_cases": "177319",
+      "deaths": "27485"
+    },
+    {
+      "date": "5/16/20",
+      "confirmed_cases": "177207",
+      "deaths": "27483"
+    },
+    {
+      "date": "5/17/20",
+      "confirmed_cases": "177240",
+      "deaths": "28062"
+    },
+    {
+      "date": "5/18/20",
+      "confirmed_cases": "177554",
+      "deaths": "28193"
+    },
+    {
+      "date": "5/19/20",
+      "confirmed_cases": "178428",
+      "deaths": "27976"
+    },
+    {
+      "date": "5/20/20",
+      "confirmed_cases": "179069",
+      "deaths": "28084"
+    },
+    {
+      "date": "5/21/20",
+      "confirmed_cases": "179306",
+      "deaths": "28167"
+    },
+    {
+      "date": "5/22/20",
+      "confirmed_cases": "179645",
+      "deaths": "28241"
+    },
+    {
+      "date": "5/23/20",
+      "confirmed_cases": "179964",
+      "deaths": "28284"
+    },
+    {
+      "date": "5/24/20",
+      "confirmed_cases": "179859",
+      "deaths": "28317"
+    },
+    {
+      "date": "5/25/20",
+      "confirmed_cases": "180166",
+      "deaths": "28407"
+    },
+    {
+      "date": "5/26/20",
+      "confirmed_cases": "179887",
+      "deaths": "28480"
+    },
+    {
+      "date": "5/27/20",
+      "confirmed_cases": "180044",
+      "deaths": "28546"
+    },
+    {
+      "date": "5/28/20",
+      "confirmed_cases": "183309",
+      "deaths": "28611"
+    },
+    {
+      "date": "5/29/20",
+      "confirmed_cases": "183816",
+      "deaths": "28663"
+    },
+    {
+      "date": "5/30/20",
+      "confirmed_cases": "185616",
+      "deaths": "28720"
+    },
+    {
+      "date": "5/31/20",
+      "confirmed_cases": "185851",
+      "deaths": "28751"
+    },
+    {
+      "date": "6/1/20",
+      "confirmed_cases": "185952",
+      "deaths": "28779"
+    },
+    {
+      "date": "6/2/20",
+      "confirmed_cases": "185112",
+      "deaths": "28886"
+    },
+    {
+      "date": "6/3/20",
+      "confirmed_cases": "185440",
+      "deaths": "28967"
+    },
+    {
+      "date": "6/4/20",
+      "confirmed_cases": "186118",
+      "deaths": "29010"
+    },
+    {
+      "date": "6/5/20",
+      "confirmed_cases": "186670",
+      "deaths": "29056"
+    },
+    {
+      "date": "6/6/20",
+      "confirmed_cases": "187199",
+      "deaths": "29087"
+    },
+    {
+      "date": "6/7/20",
+      "confirmed_cases": "187492",
+      "deaths": "29100"
+    },
+    {
+      "date": "6/8/20",
+      "confirmed_cases": "187590",
+      "deaths": "29153"
+    },
+    {
+      "date": "6/9/20",
+      "confirmed_cases": "187925",
+      "deaths": "29237"
+    },
+    {
+      "date": "6/10/20",
+      "confirmed_cases": "188322",
+      "deaths": "29260"
+    },
+    {
+      "date": "6/11/20",
+      "confirmed_cases": "188680",
+      "deaths": "29287"
+    },
+    {
+      "date": "6/12/20",
+      "confirmed_cases": "189244",
+      "deaths": "29315"
+    },
+    {
+      "date": "6/13/20",
+      "confirmed_cases": "189637",
+      "deaths": "29339"
+    },
+    {
+      "date": "6/14/20",
+      "confirmed_cases": "189928",
+      "deaths": "29346"
+    },
+    {
+      "date": "6/15/20",
+      "confirmed_cases": "189996",
+      "deaths": "29375"
+    },
+    {
+      "date": "6/16/20",
+      "confirmed_cases": "190223",
+      "deaths": "29484"
+    },
+    {
+      "date": "6/17/20",
+      "confirmed_cases": "190534",
+      "deaths": "29512"
+    },
+    {
+      "date": "6/18/20",
+      "confirmed_cases": "190735",
+      "deaths": "29540"
+    },
+    {
+      "date": "6/19/20",
+      "confirmed_cases": "191304",
+      "deaths": "29554"
+    },
+    {
+      "date": "6/20/20",
+      "confirmed_cases": "191740",
+      "deaths": "29568"
+    },
+    {
+      "date": "6/21/20",
+      "confirmed_cases": "191745",
+      "deaths": "29574"
+    },
+    {
+      "date": "6/22/20",
+      "confirmed_cases": "192070",
+      "deaths": "29595"
+    },
+    {
+      "date": "6/23/20",
+      "confirmed_cases": "192452",
+      "deaths": "29652"
+    },
+    {
+      "date": "6/24/20",
+      "confirmed_cases": "192265",
+      "deaths": "29661"
+    },
+    {
+      "date": "6/25/20",
+      "confirmed_cases": "192010",
+      "deaths": "29680"
+    },
+    {
+      "date": "6/26/20",
+      "confirmed_cases": "193346",
+      "deaths": "29705"
+    },
+    {
+      "date": "6/27/20",
+      "confirmed_cases": "193152",
+      "deaths": "29704"
+    },
+    {
+      "date": "6/28/20",
+      "confirmed_cases": "192429",
+      "deaths": "29704"
+    },
+    {
+      "date": "6/29/20",
+      "confirmed_cases": "194109",
+      "deaths": "29736"
+    },
+    {
+      "date": "6/30/20",
+      "confirmed_cases": "194373",
+      "deaths": "29763"
+    },
+    {
+      "date": "7/1/20",
+      "confirmed_cases": "194985",
+      "deaths": "29780"
+    },
+    {
+      "date": "7/2/20",
+      "confirmed_cases": "195458",
+      "deaths": "29794"
+    },
+    {
+      "date": "7/3/20",
+      "confirmed_cases": "195904",
+      "deaths": "29812"
+    },
+    {
+      "date": "7/4/20",
+      "confirmed_cases": "195546",
+      "deaths": "29812"
+    },
+    {
+      "date": "7/5/20",
+      "confirmed_cases": "195535",
+      "deaths": "29813"
+    },
+    {
+      "date": "7/6/20",
+      "confirmed_cases": "196748",
+      "deaths": "29836"
+    },
+    {
+      "date": "7/7/20",
+      "confirmed_cases": "197089",
+      "deaths": "29847"
+    },
+    {
+      "date": "7/8/20",
+      "confirmed_cases": "196796",
+      "deaths": "29846"
+    },
+    {
+      "date": "7/9/20",
+      "confirmed_cases": "197964",
+      "deaths": "29889"
+    },
+    {
+      "date": "7/10/20",
+      "confirmed_cases": "198450",
+      "deaths": "29912"
+    },
+    {
+      "date": "7/11/20",
+      "confirmed_cases": "198199",
+      "deaths": "29909"
+    },
+    {
+      "date": "7/12/20",
+      "confirmed_cases": "198183",
+      "deaths": "29909"
+    },
+    {
+      "date": "7/13/20",
+      "confirmed_cases": "199571",
+      "deaths": "29931"
+    },
+    {
+      "date": "7/14/20",
+      "confirmed_cases": "199509",
+      "deaths": "29929"
+    },
+    {
+      "date": "7/15/20",
+      "confirmed_cases": "200338",
+      "deaths": "30018"
+    },
+    {
+      "date": "7/16/20",
+      "confirmed_cases": "200739",
+      "deaths": "30035"
+    },
+    {
+      "date": "7/17/20",
+      "confirmed_cases": "201448",
+      "deaths": "30049"
+    },
+    {
+      "date": "7/18/20",
+      "confirmed_cases": "201285",
+      "deaths": "30046"
+    },
+    {
+      "date": "7/19/20",
+      "confirmed_cases": "201281",
+      "deaths": "30046"
+    },
+    {
+      "date": "7/20/20",
+      "confirmed_cases": "203242",
+      "deaths": "30069"
+    },
+    {
+      "date": "7/21/20",
+      "confirmed_cases": "203696",
+      "deaths": "30056"
+    },
+    {
+      "date": "7/22/20",
+      "confirmed_cases": "204641",
+      "deaths": "30063"
+    },
+    {
+      "date": "7/23/20",
+      "confirmed_cases": "205476",
+      "deaths": "30072"
+    },
+    {
+      "date": "7/24/20",
+      "confirmed_cases": "206418",
+      "deaths": "30081"
+    },
+    {
+      "date": "7/25/20",
+      "confirmed_cases": "206334",
+      "deaths": "30081"
+    },
+    {
+      "date": "7/26/20",
+      "confirmed_cases": "206334",
+      "deaths": "30081"
     }
   ],
   "Germany": [
@@ -1623,548 +1476,401 @@
       "date": "5/8/20",
       "confirmed_cases": "170588",
       "deaths": "7510"
-    }
-  ],
-  "Iran": [
-    {
-      "date": "1/22/20",
-      "confirmed_cases": "0",
-      "deaths": "0"
-    },
-    {
-      "date": "1/23/20",
-      "confirmed_cases": "0",
-      "deaths": "0"
-    },
-    {
-      "date": "1/24/20",
-      "confirmed_cases": "0",
-      "deaths": "0"
-    },
-    {
-      "date": "1/25/20",
-      "confirmed_cases": "0",
-      "deaths": "0"
-    },
-    {
-      "date": "1/26/20",
-      "confirmed_cases": "0",
-      "deaths": "0"
-    },
-    {
-      "date": "1/27/20",
-      "confirmed_cases": "0",
-      "deaths": "0"
-    },
-    {
-      "date": "1/28/20",
-      "confirmed_cases": "0",
-      "deaths": "0"
-    },
-    {
-      "date": "1/29/20",
-      "confirmed_cases": "0",
-      "deaths": "0"
-    },
-    {
-      "date": "1/30/20",
-      "confirmed_cases": "0",
-      "deaths": "0"
-    },
-    {
-      "date": "1/31/20",
-      "confirmed_cases": "0",
-      "deaths": "0"
-    },
-    {
-      "date": "2/1/20",
-      "confirmed_cases": "0",
-      "deaths": "0"
-    },
-    {
-      "date": "2/2/20",
-      "confirmed_cases": "0",
-      "deaths": "0"
-    },
-    {
-      "date": "2/3/20",
-      "confirmed_cases": "0",
-      "deaths": "0"
-    },
-    {
-      "date": "2/4/20",
-      "confirmed_cases": "0",
-      "deaths": "0"
-    },
-    {
-      "date": "2/5/20",
-      "confirmed_cases": "0",
-      "deaths": "0"
-    },
-    {
-      "date": "2/6/20",
-      "confirmed_cases": "0",
-      "deaths": "0"
-    },
-    {
-      "date": "2/7/20",
-      "confirmed_cases": "0",
-      "deaths": "0"
-    },
-    {
-      "date": "2/8/20",
-      "confirmed_cases": "0",
-      "deaths": "0"
-    },
-    {
-      "date": "2/9/20",
-      "confirmed_cases": "0",
-      "deaths": "0"
-    },
-    {
-      "date": "2/10/20",
-      "confirmed_cases": "0",
-      "deaths": "0"
-    },
-    {
-      "date": "2/11/20",
-      "confirmed_cases": "0",
-      "deaths": "0"
-    },
-    {
-      "date": "2/12/20",
-      "confirmed_cases": "0",
-      "deaths": "0"
-    },
-    {
-      "date": "2/13/20",
-      "confirmed_cases": "0",
-      "deaths": "0"
-    },
-    {
-      "date": "2/14/20",
-      "confirmed_cases": "0",
-      "deaths": "0"
-    },
-    {
-      "date": "2/15/20",
-      "confirmed_cases": "0",
-      "deaths": "0"
-    },
-    {
-      "date": "2/16/20",
-      "confirmed_cases": "0",
-      "deaths": "0"
-    },
-    {
-      "date": "2/17/20",
-      "confirmed_cases": "0",
-      "deaths": "0"
-    },
-    {
-      "date": "2/18/20",
-      "confirmed_cases": "0",
-      "deaths": "0"
-    },
-    {
-      "date": "2/19/20",
-      "confirmed_cases": "2",
-      "deaths": "2"
     },
     {
-      "date": "2/20/20",
-      "confirmed_cases": "5",
-      "deaths": "2"
+      "date": "5/9/20",
+      "confirmed_cases": "171324",
+      "deaths": "7549"
     },
     {
-      "date": "2/21/20",
-      "confirmed_cases": "18",
-      "deaths": "4"
+      "date": "5/10/20",
+      "confirmed_cases": "171879",
+      "deaths": "7569"
     },
     {
-      "date": "2/22/20",
-      "confirmed_cases": "28",
-      "deaths": "5"
+      "date": "5/11/20",
+      "confirmed_cases": "172576",
+      "deaths": "7661"
     },
     {
-      "date": "2/23/20",
-      "confirmed_cases": "43",
-      "deaths": "8"
+      "date": "5/12/20",
+      "confirmed_cases": "173171",
+      "deaths": "7738"
     },
     {
-      "date": "2/24/20",
-      "confirmed_cases": "61",
-      "deaths": "12"
+      "date": "5/13/20",
+      "confirmed_cases": "174098",
+      "deaths": "7861"
     },
     {
-      "date": "2/25/20",
-      "confirmed_cases": "95",
-      "deaths": "16"
+      "date": "5/14/20",
+      "confirmed_cases": "174478",
+      "deaths": "7884"
     },
     {
-      "date": "2/26/20",
-      "confirmed_cases": "139",
-      "deaths": "19"
+      "date": "5/15/20",
+      "confirmed_cases": "175233",
+      "deaths": "7897"
     },
     {
-      "date": "2/27/20",
-      "confirmed_cases": "245",
-      "deaths": "26"
+      "date": "5/16/20",
+      "confirmed_cases": "175752",
+      "deaths": "7938"
     },
     {
-      "date": "2/28/20",
-      "confirmed_cases": "388",
-      "deaths": "34"
+      "date": "5/17/20",
+      "confirmed_cases": "176369",
+      "deaths": "7962"
     },
     {
-      "date": "2/29/20",
-      "confirmed_cases": "593",
-      "deaths": "43"
+      "date": "5/18/20",
+      "confirmed_cases": "176551",
+      "deaths": "8003"
     },
     {
-      "date": "3/1/20",
-      "confirmed_cases": "978",
-      "deaths": "54"
+      "date": "5/19/20",
+      "confirmed_cases": "177778",
+      "deaths": "8081"
     },
     {
-      "date": "3/2/20",
-      "confirmed_cases": "1501",
-      "deaths": "66"
+      "date": "5/20/20",
+      "confirmed_cases": "178473",
+      "deaths": "8144"
     },
     {
-      "date": "3/3/20",
-      "confirmed_cases": "2336",
-      "deaths": "77"
+      "date": "5/21/20",
+      "confirmed_cases": "179021",
+      "deaths": "8203"
     },
     {
-      "date": "3/4/20",
-      "confirmed_cases": "2922",
-      "deaths": "92"
+      "date": "5/22/20",
+      "confirmed_cases": "179710",
+      "deaths": "8228"
     },
     {
-      "date": "3/5/20",
-      "confirmed_cases": "3513",
-      "deaths": "107"
+      "date": "5/23/20",
+      "confirmed_cases": "179986",
+      "deaths": "8261"
     },
     {
-      "date": "3/6/20",
-      "confirmed_cases": "4747",
-      "deaths": "124"
+      "date": "5/24/20",
+      "confirmed_cases": "180328",
+      "deaths": "8283"
     },
     {
-      "date": "3/7/20",
-      "confirmed_cases": "5823",
-      "deaths": "145"
+      "date": "5/25/20",
+      "confirmed_cases": "180600",
+      "deaths": "8309"
     },
     {
-      "date": "3/8/20",
-      "confirmed_cases": "6566",
-      "deaths": "194"
+      "date": "5/26/20",
+      "confirmed_cases": "181200",
+      "deaths": "8372"
     },
     {
-      "date": "3/9/20",
-      "confirmed_cases": "7161",
-      "deaths": "237"
+      "date": "5/27/20",
+      "confirmed_cases": "181524",
+      "deaths": "8428"
     },
     {
-      "date": "3/10/20",
-      "confirmed_cases": "8042",
-      "deaths": "291"
+      "date": "5/28/20",
+      "confirmed_cases": "182196",
+      "deaths": "8470"
     },
     {
-      "date": "3/11/20",
-      "confirmed_cases": "9000",
-      "deaths": "354"
+      "date": "5/29/20",
+      "confirmed_cases": "182922",
+      "deaths": "8504"
     },
     {
-      "date": "3/12/20",
-      "confirmed_cases": "10075",
-      "deaths": "429"
+      "date": "5/30/20",
+      "confirmed_cases": "183189",
+      "deaths": "8530"
     },
     {
-      "date": "3/13/20",
-      "confirmed_cases": "11364",
-      "deaths": "514"
+      "date": "5/31/20",
+      "confirmed_cases": "183410",
+      "deaths": "8540"
     },
     {
-      "date": "3/14/20",
-      "confirmed_cases": "12729",
-      "deaths": "611"
+      "date": "6/1/20",
+      "confirmed_cases": "183594",
+      "deaths": "8555"
     },
     {
-      "date": "3/15/20",
-      "confirmed_cases": "13938",
-      "deaths": "724"
+      "date": "6/2/20",
+      "confirmed_cases": "183879",
+      "deaths": "8563"
     },
     {
-      "date": "3/16/20",
-      "confirmed_cases": "14991",
-      "deaths": "853"
+      "date": "6/3/20",
+      "confirmed_cases": "184121",
+      "deaths": "8602"
     },
     {
-      "date": "3/17/20",
-      "confirmed_cases": "16169",
-      "deaths": "988"
+      "date": "6/4/20",
+      "confirmed_cases": "184472",
+      "deaths": "8635"
     },
     {
-      "date": "3/18/20",
-      "confirmed_cases": "17361",
-      "deaths": "1135"
+      "date": "6/5/20",
+      "confirmed_cases": "184924",
+      "deaths": "8658"
     },
     {
-      "date": "3/19/20",
-      "confirmed_cases": "18407",
-      "deaths": "1284"
+      "date": "6/6/20",
+      "confirmed_cases": "185450",
+      "deaths": "8673"
     },
     {
-      "date": "3/20/20",
-      "confirmed_cases": "19644",
-      "deaths": "1433"
+      "date": "6/7/20",
+      "confirmed_cases": "185750",
+      "deaths": "8685"
     },
     {
-      "date": "3/21/20",
-      "confirmed_cases": "20610",
-      "deaths": "1556"
+      "date": "6/8/20",
+      "confirmed_cases": "186109",
+      "deaths": "8695"
     },
     {
-      "date": "3/22/20",
-      "confirmed_cases": "21638",
-      "deaths": "1685"
+      "date": "6/9/20",
+      "confirmed_cases": "186506",
+      "deaths": "8736"
     },
     {
-      "date": "3/23/20",
-      "confirmed_cases": "23049",
-      "deaths": "1812"
+      "date": "6/10/20",
+      "confirmed_cases": "186522",
+      "deaths": "8752"
     },
     {
-      "date": "3/24/20",
-      "confirmed_cases": "24811",
-      "deaths": "1934"
+      "date": "6/11/20",
+      "confirmed_cases": "186691",
+      "deaths": "8772"
     },
     {
-      "date": "3/25/20",
-      "confirmed_cases": "27017",
-      "deaths": "2077"
+      "date": "6/12/20",
+      "confirmed_cases": "187226",
+      "deaths": "8783"
     },
     {
-      "date": "3/26/20",
-      "confirmed_cases": "29406",
-      "deaths": "2234"
+      "date": "6/13/20",
+      "confirmed_cases": "187267",
+      "deaths": "8793"
     },
     {
-      "date": "3/27/20",
-      "confirmed_cases": "32332",
-      "deaths": "2378"
+      "date": "6/14/20",
+      "confirmed_cases": "187518",
+      "deaths": "8801"
     },
     {
-      "date": "3/28/20",
-      "confirmed_cases": "35408",
-      "deaths": "2517"
+      "date": "6/15/20",
+      "confirmed_cases": "187682",
+      "deaths": "8807"
     },
     {
-      "date": "3/29/20",
-      "confirmed_cases": "38309",
-      "deaths": "2640"
+      "date": "6/16/20",
+      "confirmed_cases": "188252",
+      "deaths": "8820"
     },
     {
-      "date": "3/30/20",
-      "confirmed_cases": "41495",
-      "deaths": "2757"
+      "date": "6/17/20",
+      "confirmed_cases": "188604",
+      "deaths": "8851"
     },
     {
-      "date": "3/31/20",
-      "confirmed_cases": "44605",
-      "deaths": "2898"
+      "date": "6/18/20",
+      "confirmed_cases": "189817",
+      "deaths": "8875"
     },
     {
-      "date": "4/1/20",
-      "confirmed_cases": "47593",
-      "deaths": "3036"
+      "date": "6/19/20",
+      "confirmed_cases": "190299",
+      "deaths": "8887"
     },
     {
-      "date": "4/2/20",
-      "confirmed_cases": "50468",
-      "deaths": "3160"
+      "date": "6/20/20",
+      "confirmed_cases": "190670",
+      "deaths": "8895"
     },
     {
-      "date": "4/3/20",
-      "confirmed_cases": "53183",
-      "deaths": "3294"
+      "date": "6/21/20",
+      "confirmed_cases": "191272",
+      "deaths": "8895"
     },
     {
-      "date": "4/4/20",
-      "confirmed_cases": "55743",
-      "deaths": "3452"
+      "date": "6/22/20",
+      "confirmed_cases": "191768",
+      "deaths": "8899"
     },
     {
-      "date": "4/5/20",
-      "confirmed_cases": "58226",
-      "deaths": "3603"
+      "date": "6/23/20",
+      "confirmed_cases": "192480",
+      "deaths": "8914"
     },
     {
-      "date": "4/6/20",
-      "confirmed_cases": "60500",
-      "deaths": "3739"
+      "date": "6/24/20",
+      "confirmed_cases": "192871",
+      "deaths": "8928"
     },
     {
-      "date": "4/7/20",
-      "confirmed_cases": "62589",
-      "deaths": "3872"
+      "date": "6/25/20",
+      "confirmed_cases": "193371",
+      "deaths": "8940"
     },
     {
-      "date": "4/8/20",
-      "confirmed_cases": "64586",
-      "deaths": "3993"
+      "date": "6/26/20",
+      "confirmed_cases": "194036",
+      "deaths": "8965"
     },
     {
-      "date": "4/9/20",
-      "confirmed_cases": "66220",
-      "deaths": "4110"
+      "date": "6/27/20",
+      "confirmed_cases": "194458",
+      "deaths": "8968"
     },
     {
-      "date": "4/10/20",
-      "confirmed_cases": "68192",
-      "deaths": "4232"
+      "date": "6/28/20",
+      "confirmed_cases": "194693",
+      "deaths": "8968"
     },
     {
-      "date": "4/11/20",
-      "confirmed_cases": "70029",
-      "deaths": "4357"
+      "date": "6/29/20",
+      "confirmed_cases": "195042",
+      "deaths": "8976"
     },
     {
-      "date": "4/12/20",
-      "confirmed_cases": "71686",
-      "deaths": "4474"
+      "date": "6/30/20",
+      "confirmed_cases": "195418",
+      "deaths": "8990"
     },
     {
-      "date": "4/13/20",
-      "confirmed_cases": "73303",
-      "deaths": "4585"
+      "date": "7/1/20",
+      "confirmed_cases": "195893",
+      "deaths": "8995"
     },
     {
-      "date": "4/14/20",
-      "confirmed_cases": "74877",
-      "deaths": "4683"
+      "date": "7/2/20",
+      "confirmed_cases": "196370",
+      "deaths": "9006"
     },
     {
-      "date": "4/15/20",
-      "confirmed_cases": "76389",
-      "deaths": "4777"
+      "date": "7/3/20",
+      "confirmed_cases": "196780",
+      "deaths": "9010"
     },
     {
-      "date": "4/16/20",
-      "confirmed_cases": "77995",
-      "deaths": "4869"
+      "date": "7/4/20",
+      "confirmed_cases": "197198",
+      "deaths": "9020"
     },
     {
-      "date": "4/17/20",
-      "confirmed_cases": "79494",
-      "deaths": "4958"
+      "date": "7/5/20",
+      "confirmed_cases": "197523",
+      "deaths": "9023"
     },
     {
-      "date": "4/18/20",
-      "confirmed_cases": "80868",
-      "deaths": "5031"
+      "date": "7/6/20",
+      "confirmed_cases": "198064",
+      "deaths": "9022"
     },
     {
-      "date": "4/19/20",
-      "confirmed_cases": "82211",
-      "deaths": "5118"
+      "date": "7/7/20",
+      "confirmed_cases": "198343",
+      "deaths": "9032"
     },
     {
-      "date": "4/20/20",
-      "confirmed_cases": "83505",
-      "deaths": "5209"
+      "date": "7/8/20",
+      "confirmed_cases": "198699",
+      "deaths": "9046"
     },
     {
-      "date": "4/21/20",
-      "confirmed_cases": "84802",
-      "deaths": "5297"
+      "date": "7/9/20",
+      "confirmed_cases": "199001",
+      "deaths": "9057"
     },
     {
-      "date": "4/22/20",
-      "confirmed_cases": "85996",
-      "deaths": "5391"
+      "date": "7/10/20",
+      "confirmed_cases": "199332",
+      "deaths": "9063"
     },
     {
-      "date": "4/23/20",
-      "confirmed_cases": "87026",
-      "deaths": "5481"
+      "date": "7/11/20",
+      "confirmed_cases": "199709",
+      "deaths": "9070"
     },
     {
-      "date": "4/24/20",
-      "confirmed_cases": "88194",
-      "deaths": "5574"
+      "date": "7/12/20",
+      "confirmed_cases": "199919",
+      "deaths": "9071"
     },
     {
-      "date": "4/25/20",
-      "confirmed_cases": "89328",
-      "deaths": "5650"
+      "date": "7/13/20",
+      "confirmed_cases": "200180",
+      "deaths": "9074"
     },
     {
-      "date": "4/26/20",
-      "confirmed_cases": "90481",
-      "deaths": "5710"
+      "date": "7/14/20",
+      "confirmed_cases": "200456",
+      "deaths": "9078"
     },
     {
-      "date": "4/27/20",
-      "confirmed_cases": "91472",
-      "deaths": "5806"
+      "date": "7/15/20",
+      "confirmed_cases": "200890",
+      "deaths": "9080"
     },
     {
-      "date": "4/28/20",
-      "confirmed_cases": "92584",
-      "deaths": "5877"
+      "date": "7/16/20",
+      "confirmed_cases": "201450",
+      "deaths": "9087"
     },
     {
-      "date": "4/29/20",
-      "confirmed_cases": "93657",
-      "deaths": "5957"
+      "date": "7/17/20",
+      "confirmed_cases": "202045",
+      "deaths": "9088"
     },
     {
-      "date": "4/30/20",
-      "confirmed_cases": "94640",
-      "deaths": "6028"
+      "date": "7/18/20",
+      "confirmed_cases": "202426",
+      "deaths": "9091"
     },
     {
-      "date": "5/1/20",
-      "confirmed_cases": "95646",
-      "deaths": "6091"
+      "date": "7/19/20",
+      "confirmed_cases": "202735",
+      "deaths": "9092"
     },
     {
-      "date": "5/2/20",
-      "confirmed_cases": "96448",
-      "deaths": "6156"
+      "date": "7/20/20",
+      "confirmed_cases": "203325",
+      "deaths": "9094"
     },
     {
-      "date": "5/3/20",
-      "confirmed_cases": "97424",
-      "deaths": "6203"
+      "date": "7/21/20",
+      "confirmed_cases": "203717",
+      "deaths": "9099"
     },
     {
-      "date": "5/4/20",
-      "confirmed_cases": "98647",
-      "deaths": "6277"
+      "date": "7/22/20",
+      "confirmed_cases": "204276",
+      "deaths": "9102"
     },
     {
-      "date": "5/5/20",
-      "confirmed_cases": "99970",
-      "deaths": "6340"
+      "date": "7/23/20",
+      "confirmed_cases": "204881",
+      "deaths": "9110"
     },
     {
-      "date": "5/6/20",
-      "confirmed_cases": "101650",
-      "deaths": "6418"
+      "date": "7/24/20",
+      "confirmed_cases": "205623",
+      "deaths": "9120"
     },
     {
-      "date": "5/7/20",
-      "confirmed_cases": "103135",
-      "deaths": "6486"
+      "date": "7/25/20",
+      "confirmed_cases": "206278",
+      "deaths": "9124"
     },
     {
-      "date": "5/8/20",
-      "confirmed_cases": "104691",
-      "deaths": "6541"
+      "date": "7/26/20",
+      "confirmed_cases": "206667",
+      "deaths": "9124"
     }
   ],
   "Italy": [
@@ -2420,8 +2126,8 @@
     },
     {
       "date": "3/12/20",
-      "confirmed_cases": "12462",
-      "deaths": "827"
+      "confirmed_cases": "15113",
+      "deaths": "1016"
     },
     {
       "date": "3/13/20",
@@ -2707,548 +2413,401 @@
       "date": "5/8/20",
       "confirmed_cases": "217185",
       "deaths": "30201"
-    }
-  ],
-  "Russia": [
-    {
-      "date": "1/22/20",
-      "confirmed_cases": "0",
-      "deaths": "0"
-    },
-    {
-      "date": "1/23/20",
-      "confirmed_cases": "0",
-      "deaths": "0"
-    },
-    {
-      "date": "1/24/20",
-      "confirmed_cases": "0",
-      "deaths": "0"
-    },
-    {
-      "date": "1/25/20",
-      "confirmed_cases": "0",
-      "deaths": "0"
-    },
-    {
-      "date": "1/26/20",
-      "confirmed_cases": "0",
-      "deaths": "0"
-    },
-    {
-      "date": "1/27/20",
-      "confirmed_cases": "0",
-      "deaths": "0"
-    },
-    {
-      "date": "1/28/20",
-      "confirmed_cases": "0",
-      "deaths": "0"
-    },
-    {
-      "date": "1/29/20",
-      "confirmed_cases": "0",
-      "deaths": "0"
-    },
-    {
-      "date": "1/30/20",
-      "confirmed_cases": "0",
-      "deaths": "0"
-    },
-    {
-      "date": "1/31/20",
-      "confirmed_cases": "2",
-      "deaths": "0"
-    },
-    {
-      "date": "2/1/20",
-      "confirmed_cases": "2",
-      "deaths": "0"
-    },
-    {
-      "date": "2/2/20",
-      "confirmed_cases": "2",
-      "deaths": "0"
-    },
-    {
-      "date": "2/3/20",
-      "confirmed_cases": "2",
-      "deaths": "0"
-    },
-    {
-      "date": "2/4/20",
-      "confirmed_cases": "2",
-      "deaths": "0"
-    },
-    {
-      "date": "2/5/20",
-      "confirmed_cases": "2",
-      "deaths": "0"
-    },
-    {
-      "date": "2/6/20",
-      "confirmed_cases": "2",
-      "deaths": "0"
-    },
-    {
-      "date": "2/7/20",
-      "confirmed_cases": "2",
-      "deaths": "0"
-    },
-    {
-      "date": "2/8/20",
-      "confirmed_cases": "2",
-      "deaths": "0"
-    },
-    {
-      "date": "2/9/20",
-      "confirmed_cases": "2",
-      "deaths": "0"
-    },
-    {
-      "date": "2/10/20",
-      "confirmed_cases": "2",
-      "deaths": "0"
-    },
-    {
-      "date": "2/11/20",
-      "confirmed_cases": "2",
-      "deaths": "0"
-    },
-    {
-      "date": "2/12/20",
-      "confirmed_cases": "2",
-      "deaths": "0"
-    },
-    {
-      "date": "2/13/20",
-      "confirmed_cases": "2",
-      "deaths": "0"
-    },
-    {
-      "date": "2/14/20",
-      "confirmed_cases": "2",
-      "deaths": "0"
-    },
-    {
-      "date": "2/15/20",
-      "confirmed_cases": "2",
-      "deaths": "0"
-    },
-    {
-      "date": "2/16/20",
-      "confirmed_cases": "2",
-      "deaths": "0"
-    },
-    {
-      "date": "2/17/20",
-      "confirmed_cases": "2",
-      "deaths": "0"
-    },
-    {
-      "date": "2/18/20",
-      "confirmed_cases": "2",
-      "deaths": "0"
-    },
-    {
-      "date": "2/19/20",
-      "confirmed_cases": "2",
-      "deaths": "0"
     },
     {
-      "date": "2/20/20",
-      "confirmed_cases": "2",
-      "deaths": "0"
+      "date": "5/9/20",
+      "confirmed_cases": "218268",
+      "deaths": "30395"
     },
     {
-      "date": "2/21/20",
-      "confirmed_cases": "2",
-      "deaths": "0"
+      "date": "5/10/20",
+      "confirmed_cases": "219070",
+      "deaths": "30560"
     },
     {
-      "date": "2/22/20",
-      "confirmed_cases": "2",
-      "deaths": "0"
+      "date": "5/11/20",
+      "confirmed_cases": "219814",
+      "deaths": "30739"
     },
     {
-      "date": "2/23/20",
-      "confirmed_cases": "2",
-      "deaths": "0"
+      "date": "5/12/20",
+      "confirmed_cases": "221216",
+      "deaths": "30911"
     },
     {
-      "date": "2/24/20",
-      "confirmed_cases": "2",
-      "deaths": "0"
+      "date": "5/13/20",
+      "confirmed_cases": "222104",
+      "deaths": "31106"
     },
     {
-      "date": "2/25/20",
-      "confirmed_cases": "2",
-      "deaths": "0"
+      "date": "5/14/20",
+      "confirmed_cases": "223096",
+      "deaths": "31368"
     },
     {
-      "date": "2/26/20",
-      "confirmed_cases": "2",
-      "deaths": "0"
+      "date": "5/15/20",
+      "confirmed_cases": "223885",
+      "deaths": "31610"
     },
     {
-      "date": "2/27/20",
-      "confirmed_cases": "2",
-      "deaths": "0"
+      "date": "5/16/20",
+      "confirmed_cases": "224760",
+      "deaths": "31763"
     },
     {
-      "date": "2/28/20",
-      "confirmed_cases": "2",
-      "deaths": "0"
+      "date": "5/17/20",
+      "confirmed_cases": "225435",
+      "deaths": "31908"
     },
     {
-      "date": "2/29/20",
-      "confirmed_cases": "2",
-      "deaths": "0"
+      "date": "5/18/20",
+      "confirmed_cases": "225886",
+      "deaths": "32007"
     },
     {
-      "date": "3/1/20",
-      "confirmed_cases": "2",
-      "deaths": "0"
+      "date": "5/19/20",
+      "confirmed_cases": "226699",
+      "deaths": "32169"
     },
     {
-      "date": "3/2/20",
-      "confirmed_cases": "3",
-      "deaths": "0"
+      "date": "5/20/20",
+      "confirmed_cases": "227364",
+      "deaths": "32330"
     },
     {
-      "date": "3/3/20",
-      "confirmed_cases": "3",
-      "deaths": "0"
+      "date": "5/21/20",
+      "confirmed_cases": "228006",
+      "deaths": "32486"
     },
     {
-      "date": "3/4/20",
-      "confirmed_cases": "3",
-      "deaths": "0"
+      "date": "5/22/20",
+      "confirmed_cases": "228658",
+      "deaths": "32616"
     },
     {
-      "date": "3/5/20",
-      "confirmed_cases": "4",
-      "deaths": "0"
+      "date": "5/23/20",
+      "confirmed_cases": "229327",
+      "deaths": "32735"
     },
     {
-      "date": "3/6/20",
-      "confirmed_cases": "13",
-      "deaths": "0"
+      "date": "5/24/20",
+      "confirmed_cases": "229858",
+      "deaths": "32785"
     },
     {
-      "date": "3/7/20",
-      "confirmed_cases": "13",
-      "deaths": "0"
+      "date": "5/25/20",
+      "confirmed_cases": "230158",
+      "deaths": "32877"
     },
     {
-      "date": "3/8/20",
-      "confirmed_cases": "17",
-      "deaths": "0"
+      "date": "5/26/20",
+      "confirmed_cases": "230555",
+      "deaths": "32955"
     },
     {
-      "date": "3/9/20",
-      "confirmed_cases": "17",
-      "deaths": "0"
+      "date": "5/27/20",
+      "confirmed_cases": "231139",
+      "deaths": "33072"
     },
     {
-      "date": "3/10/20",
-      "confirmed_cases": "20",
-      "deaths": "0"
+      "date": "5/28/20",
+      "confirmed_cases": "231732",
+      "deaths": "33142"
     },
     {
-      "date": "3/11/20",
-      "confirmed_cases": "20",
-      "deaths": "0"
+      "date": "5/29/20",
+      "confirmed_cases": "232248",
+      "deaths": "33229"
     },
     {
-      "date": "3/12/20",
-      "confirmed_cases": "28",
-      "deaths": "0"
+      "date": "5/30/20",
+      "confirmed_cases": "232664",
+      "deaths": "33340"
     },
     {
-      "date": "3/13/20",
-      "confirmed_cases": "45",
-      "deaths": "0"
+      "date": "5/31/20",
+      "confirmed_cases": "232997",
+      "deaths": "33415"
     },
     {
-      "date": "3/14/20",
-      "confirmed_cases": "59",
-      "deaths": "0"
+      "date": "6/1/20",
+      "confirmed_cases": "233197",
+      "deaths": "33475"
     },
     {
-      "date": "3/15/20",
-      "confirmed_cases": "63",
-      "deaths": "0"
+      "date": "6/2/20",
+      "confirmed_cases": "233515",
+      "deaths": "33530"
     },
     {
-      "date": "3/16/20",
-      "confirmed_cases": "90",
-      "deaths": "0"
+      "date": "6/3/20",
+      "confirmed_cases": "233836",
+      "deaths": "33601"
     },
     {
-      "date": "3/17/20",
-      "confirmed_cases": "114",
-      "deaths": "0"
+      "date": "6/4/20",
+      "confirmed_cases": "234013",
+      "deaths": "33689"
     },
     {
-      "date": "3/18/20",
-      "confirmed_cases": "147",
-      "deaths": "0"
+      "date": "6/5/20",
+      "confirmed_cases": "234531",
+      "deaths": "33774"
     },
     {
-      "date": "3/19/20",
-      "confirmed_cases": "199",
-      "deaths": "1"
+      "date": "6/6/20",
+      "confirmed_cases": "234801",
+      "deaths": "33846"
     },
     {
-      "date": "3/20/20",
-      "confirmed_cases": "253",
-      "deaths": "1"
+      "date": "6/7/20",
+      "confirmed_cases": "234998",
+      "deaths": "33899"
     },
     {
-      "date": "3/21/20",
-      "confirmed_cases": "306",
-      "deaths": "1"
+      "date": "6/8/20",
+      "confirmed_cases": "235278",
+      "deaths": "33964"
     },
     {
-      "date": "3/22/20",
-      "confirmed_cases": "367",
-      "deaths": "1"
+      "date": "6/9/20",
+      "confirmed_cases": "235561",
+      "deaths": "34043"
     },
     {
-      "date": "3/23/20",
-      "confirmed_cases": "438",
-      "deaths": "1"
+      "date": "6/10/20",
+      "confirmed_cases": "235763",
+      "deaths": "34114"
     },
     {
-      "date": "3/24/20",
-      "confirmed_cases": "495",
-      "deaths": "1"
+      "date": "6/11/20",
+      "confirmed_cases": "236142",
+      "deaths": "34167"
     },
     {
-      "date": "3/25/20",
-      "confirmed_cases": "658",
-      "deaths": "3"
+      "date": "6/12/20",
+      "confirmed_cases": "236305",
+      "deaths": "34223"
     },
     {
-      "date": "3/26/20",
-      "confirmed_cases": "840",
-      "deaths": "3"
+      "date": "6/13/20",
+      "confirmed_cases": "236651",
+      "deaths": "34301"
     },
     {
-      "date": "3/27/20",
-      "confirmed_cases": "1036",
-      "deaths": "4"
+      "date": "6/14/20",
+      "confirmed_cases": "236989",
+      "deaths": "34345"
     },
     {
-      "date": "3/28/20",
-      "confirmed_cases": "1264",
-      "deaths": "4"
+      "date": "6/15/20",
+      "confirmed_cases": "237290",
+      "deaths": "34371"
     },
     {
-      "date": "3/29/20",
-      "confirmed_cases": "1534",
-      "deaths": "8"
+      "date": "6/16/20",
+      "confirmed_cases": "237500",
+      "deaths": "34405"
     },
     {
-      "date": "3/30/20",
-      "confirmed_cases": "1836",
-      "deaths": "9"
+      "date": "6/17/20",
+      "confirmed_cases": "237828",
+      "deaths": "34448"
     },
     {
-      "date": "3/31/20",
-      "confirmed_cases": "2337",
-      "deaths": "17"
+      "date": "6/18/20",
+      "confirmed_cases": "238159",
+      "deaths": "34514"
     },
     {
-      "date": "4/1/20",
-      "confirmed_cases": "2777",
-      "deaths": "24"
+      "date": "6/19/20",
+      "confirmed_cases": "238011",
+      "deaths": "34561"
     },
     {
-      "date": "4/2/20",
-      "confirmed_cases": "3548",
-      "deaths": "30"
+      "date": "6/20/20",
+      "confirmed_cases": "238275",
+      "deaths": "34610"
     },
     {
-      "date": "4/3/20",
-      "confirmed_cases": "4149",
-      "deaths": "34"
+      "date": "6/21/20",
+      "confirmed_cases": "238499",
+      "deaths": "34634"
     },
     {
-      "date": "4/4/20",
-      "confirmed_cases": "4731",
-      "deaths": "43"
+      "date": "6/22/20",
+      "confirmed_cases": "238720",
+      "deaths": "34657"
     },
     {
-      "date": "4/5/20",
-      "confirmed_cases": "5389",
-      "deaths": "45"
+      "date": "6/23/20",
+      "confirmed_cases": "238833",
+      "deaths": "34675"
     },
     {
-      "date": "4/6/20",
-      "confirmed_cases": "6343",
-      "deaths": "47"
+      "date": "6/24/20",
+      "confirmed_cases": "239410",
+      "deaths": "34644"
     },
     {
-      "date": "4/7/20",
-      "confirmed_cases": "7497",
-      "deaths": "58"
+      "date": "6/25/20",
+      "confirmed_cases": "239706",
+      "deaths": "34678"
     },
     {
-      "date": "4/8/20",
-      "confirmed_cases": "8672",
-      "deaths": "63"
+      "date": "6/26/20",
+      "confirmed_cases": "239961",
+      "deaths": "34708"
     },
     {
-      "date": "4/9/20",
-      "confirmed_cases": "10131",
-      "deaths": "76"
+      "date": "6/27/20",
+      "confirmed_cases": "240136",
+      "deaths": "34716"
     },
     {
-      "date": "4/10/20",
-      "confirmed_cases": "11917",
-      "deaths": "94"
+      "date": "6/28/20",
+      "confirmed_cases": "240310",
+      "deaths": "34738"
     },
     {
-      "date": "4/11/20",
-      "confirmed_cases": "13584",
-      "deaths": "106"
+      "date": "6/29/20",
+      "confirmed_cases": "240436",
+      "deaths": "34744"
     },
     {
-      "date": "4/12/20",
-      "confirmed_cases": "15770",
-      "deaths": "130"
+      "date": "6/30/20",
+      "confirmed_cases": "240578",
+      "deaths": "34767"
     },
     {
-      "date": "4/13/20",
-      "confirmed_cases": "18328",
-      "deaths": "148"
+      "date": "7/1/20",
+      "confirmed_cases": "240760",
+      "deaths": "34788"
     },
     {
-      "date": "4/14/20",
-      "confirmed_cases": "21102",
-      "deaths": "170"
+      "date": "7/2/20",
+      "confirmed_cases": "240961",
+      "deaths": "34818"
     },
     {
-      "date": "4/15/20",
-      "confirmed_cases": "24490",
-      "deaths": "198"
+      "date": "7/3/20",
+      "confirmed_cases": "241184",
+      "deaths": "34833"
     },
     {
-      "date": "4/16/20",
-      "confirmed_cases": "27938",
-      "deaths": "232"
+      "date": "7/4/20",
+      "confirmed_cases": "241419",
+      "deaths": "34854"
     },
     {
-      "date": "4/17/20",
-      "confirmed_cases": "32008",
-      "deaths": "273"
+      "date": "7/5/20",
+      "confirmed_cases": "241611",
+      "deaths": "34861"
     },
     {
-      "date": "4/18/20",
-      "confirmed_cases": "36793",
-      "deaths": "313"
+      "date": "7/6/20",
+      "confirmed_cases": "241819",
+      "deaths": "34869"
     },
     {
-      "date": "4/19/20",
-      "confirmed_cases": "42853",
-      "deaths": "361"
+      "date": "7/7/20",
+      "confirmed_cases": "241956",
+      "deaths": "34899"
     },
     {
-      "date": "4/20/20",
-      "confirmed_cases": "47121",
-      "deaths": "405"
+      "date": "7/8/20",
+      "confirmed_cases": "242149",
+      "deaths": "34914"
     },
     {
-      "date": "4/21/20",
-      "confirmed_cases": "52763",
-      "deaths": "456"
+      "date": "7/9/20",
+      "confirmed_cases": "242363",
+      "deaths": "34926"
     },
     {
-      "date": "4/22/20",
-      "confirmed_cases": "57999",
-      "deaths": "513"
+      "date": "7/10/20",
+      "confirmed_cases": "242639",
+      "deaths": "34938"
     },
     {
-      "date": "4/23/20",
-      "confirmed_cases": "62773",
-      "deaths": "555"
+      "date": "7/11/20",
+      "confirmed_cases": "242827",
+      "deaths": "34945"
     },
     {
-      "date": "4/24/20",
-      "confirmed_cases": "68622",
-      "deaths": "615"
+      "date": "7/12/20",
+      "confirmed_cases": "243061",
+      "deaths": "34954"
     },
     {
-      "date": "4/25/20",
-      "confirmed_cases": "74588",
-      "deaths": "681"
+      "date": "7/13/20",
+      "confirmed_cases": "243230",
+      "deaths": "34967"
     },
     {
-      "date": "4/26/20",
-      "confirmed_cases": "80949",
-      "deaths": "747"
+      "date": "7/14/20",
+      "confirmed_cases": "243344",
+      "deaths": "34984"
     },
     {
-      "date": "4/27/20",
-      "confirmed_cases": "87147",
-      "deaths": "794"
+      "date": "7/15/20",
+      "confirmed_cases": "243506",
+      "deaths": "34997"
     },
     {
-      "date": "4/28/20",
-      "confirmed_cases": "93558",
-      "deaths": "867"
+      "date": "7/16/20",
+      "confirmed_cases": "243736",
+      "deaths": "35017"
     },
     {
-      "date": "4/29/20",
-      "confirmed_cases": "99399",
-      "deaths": "972"
+      "date": "7/17/20",
+      "confirmed_cases": "243967",
+      "deaths": "35028"
     },
     {
-      "date": "4/30/20",
-      "confirmed_cases": "106498",
-      "deaths": "1073"
+      "date": "7/18/20",
+      "confirmed_cases": "244216",
+      "deaths": "35042"
     },
     {
-      "date": "5/1/20",
-      "confirmed_cases": "114431",
-      "deaths": "1169"
+      "date": "7/19/20",
+      "confirmed_cases": "244434",
+      "deaths": "35045"
     },
     {
-      "date": "5/2/20",
-      "confirmed_cases": "124054",
-      "deaths": "1222"
+      "date": "7/20/20",
+      "confirmed_cases": "244624",
+      "deaths": "35058"
     },
     {
-      "date": "5/3/20",
-      "confirmed_cases": "134687",
-      "deaths": "1280"
+      "date": "7/21/20",
+      "confirmed_cases": "244752",
+      "deaths": "35073"
     },
     {
-      "date": "5/4/20",
-      "confirmed_cases": "145268",
-      "deaths": "1356"
+      "date": "7/22/20",
+      "confirmed_cases": "245032",
+      "deaths": "35082"
     },
     {
-      "date": "5/5/20",
-      "confirmed_cases": "155370",
-      "deaths": "1451"
+      "date": "7/23/20",
+      "confirmed_cases": "245338",
+      "deaths": "35092"
     },
     {
-      "date": "5/6/20",
-      "confirmed_cases": "165929",
-      "deaths": "1537"
+      "date": "7/24/20",
+      "confirmed_cases": "245590",
+      "deaths": "35097"
     },
     {
-      "date": "5/7/20",
-      "confirmed_cases": "177160",
-      "deaths": "1625"
+      "date": "7/25/20",
+      "confirmed_cases": "245864",
+      "deaths": "35102"
     },
     {
-      "date": "5/8/20",
-      "confirmed_cases": "187859",
-      "deaths": "1723"
+      "date": "7/26/20",
+      "confirmed_cases": "246118",
+      "deaths": "35107"
     }
   ],
   "Spain": [
@@ -3754,7 +3313,7 @@
     },
     {
       "date": "5/1/20",
-      "confirmed_cases": "213435",
+      "confirmed_cases": "215216",
       "deaths": "24543"
     },
     {
@@ -3791,6 +3350,401 @@
       "date": "5/8/20",
       "confirmed_cases": "222857",
       "deaths": "26299"
+    },
+    {
+      "date": "5/9/20",
+      "confirmed_cases": "223578",
+      "deaths": "26478"
+    },
+    {
+      "date": "5/10/20",
+      "confirmed_cases": "224350",
+      "deaths": "26621"
+    },
+    {
+      "date": "5/11/20",
+      "confirmed_cases": "227436",
+      "deaths": "26744"
+    },
+    {
+      "date": "5/12/20",
+      "confirmed_cases": "228030",
+      "deaths": "26920"
+    },
+    {
+      "date": "5/13/20",
+      "confirmed_cases": "228691",
+      "deaths": "27104"
+    },
+    {
+      "date": "5/14/20",
+      "confirmed_cases": "229540",
+      "deaths": "27321"
+    },
+    {
+      "date": "5/15/20",
+      "confirmed_cases": "230183",
+      "deaths": "27459"
+    },
+    {
+      "date": "5/16/20",
+      "confirmed_cases": "230698",
+      "deaths": "27563"
+    },
+    {
+      "date": "5/17/20",
+      "confirmed_cases": "230698",
+      "deaths": "27563"
+    },
+    {
+      "date": "5/18/20",
+      "confirmed_cases": "231606",
+      "deaths": "27709"
+    },
+    {
+      "date": "5/19/20",
+      "confirmed_cases": "232037",
+      "deaths": "27778"
+    },
+    {
+      "date": "5/20/20",
+      "confirmed_cases": "232555",
+      "deaths": "27888"
+    },
+    {
+      "date": "5/21/20",
+      "confirmed_cases": "233037",
+      "deaths": "27940"
+    },
+    {
+      "date": "5/22/20",
+      "confirmed_cases": "234824",
+      "deaths": "28628"
+    },
+    {
+      "date": "5/23/20",
+      "confirmed_cases": "235290",
+      "deaths": "28678"
+    },
+    {
+      "date": "5/24/20",
+      "confirmed_cases": "235772",
+      "deaths": "28752"
+    },
+    {
+      "date": "5/25/20",
+      "confirmed_cases": "235400",
+      "deaths": "26834"
+    },
+    {
+      "date": "5/26/20",
+      "confirmed_cases": "236259",
+      "deaths": "27117"
+    },
+    {
+      "date": "5/27/20",
+      "confirmed_cases": "236259",
+      "deaths": "27117"
+    },
+    {
+      "date": "5/28/20",
+      "confirmed_cases": "237906",
+      "deaths": "27119"
+    },
+    {
+      "date": "5/29/20",
+      "confirmed_cases": "238564",
+      "deaths": "27121"
+    },
+    {
+      "date": "5/30/20",
+      "confirmed_cases": "239228",
+      "deaths": "27125"
+    },
+    {
+      "date": "5/31/20",
+      "confirmed_cases": "239479",
+      "deaths": "27127"
+    },
+    {
+      "date": "6/1/20",
+      "confirmed_cases": "239638",
+      "deaths": "27127"
+    },
+    {
+      "date": "6/2/20",
+      "confirmed_cases": "239932",
+      "deaths": "27127"
+    },
+    {
+      "date": "6/3/20",
+      "confirmed_cases": "240326",
+      "deaths": "27128"
+    },
+    {
+      "date": "6/4/20",
+      "confirmed_cases": "240660",
+      "deaths": "27133"
+    },
+    {
+      "date": "6/5/20",
+      "confirmed_cases": "240978",
+      "deaths": "27134"
+    },
+    {
+      "date": "6/6/20",
+      "confirmed_cases": "241310",
+      "deaths": "27135"
+    },
+    {
+      "date": "6/7/20",
+      "confirmed_cases": "241550",
+      "deaths": "27136"
+    },
+    {
+      "date": "6/8/20",
+      "confirmed_cases": "241717",
+      "deaths": "27136"
+    },
+    {
+      "date": "6/9/20",
+      "confirmed_cases": "241966",
+      "deaths": "27136"
+    },
+    {
+      "date": "6/10/20",
+      "confirmed_cases": "242280",
+      "deaths": "27136"
+    },
+    {
+      "date": "6/11/20",
+      "confirmed_cases": "242707",
+      "deaths": "27136"
+    },
+    {
+      "date": "6/12/20",
+      "confirmed_cases": "243209",
+      "deaths": "27136"
+    },
+    {
+      "date": "6/13/20",
+      "confirmed_cases": "243605",
+      "deaths": "27136"
+    },
+    {
+      "date": "6/14/20",
+      "confirmed_cases": "243928",
+      "deaths": "27136"
+    },
+    {
+      "date": "6/15/20",
+      "confirmed_cases": "244109",
+      "deaths": "27136"
+    },
+    {
+      "date": "6/16/20",
+      "confirmed_cases": "244328",
+      "deaths": "27136"
+    },
+    {
+      "date": "6/17/20",
+      "confirmed_cases": "244683",
+      "deaths": "27136"
+    },
+    {
+      "date": "6/18/20",
+      "confirmed_cases": "245268",
+      "deaths": "27136"
+    },
+    {
+      "date": "6/19/20",
+      "confirmed_cases": "245575",
+      "deaths": "28315"
+    },
+    {
+      "date": "6/20/20",
+      "confirmed_cases": "245938",
+      "deaths": "28322"
+    },
+    {
+      "date": "6/21/20",
+      "confirmed_cases": "246272",
+      "deaths": "28323"
+    },
+    {
+      "date": "6/22/20",
+      "confirmed_cases": "246504",
+      "deaths": "28324"
+    },
+    {
+      "date": "6/23/20",
+      "confirmed_cases": "246752",
+      "deaths": "28325"
+    },
+    {
+      "date": "6/24/20",
+      "confirmed_cases": "247086",
+      "deaths": "28327"
+    },
+    {
+      "date": "6/25/20",
+      "confirmed_cases": "247486",
+      "deaths": "28330"
+    },
+    {
+      "date": "6/26/20",
+      "confirmed_cases": "247905",
+      "deaths": "28338"
+    },
+    {
+      "date": "6/27/20",
+      "confirmed_cases": "248469",
+      "deaths": "28341"
+    },
+    {
+      "date": "6/28/20",
+      "confirmed_cases": "248770",
+      "deaths": "28343"
+    },
+    {
+      "date": "6/29/20",
+      "confirmed_cases": "248970",
+      "deaths": "28346"
+    },
+    {
+      "date": "6/30/20",
+      "confirmed_cases": "249271",
+      "deaths": "28355"
+    },
+    {
+      "date": "7/1/20",
+      "confirmed_cases": "249659",
+      "deaths": "28364"
+    },
+    {
+      "date": "7/2/20",
+      "confirmed_cases": "250103",
+      "deaths": "28368"
+    },
+    {
+      "date": "7/3/20",
+      "confirmed_cases": "250545",
+      "deaths": "28385"
+    },
+    {
+      "date": "7/4/20",
+      "confirmed_cases": "250545",
+      "deaths": "28385"
+    },
+    {
+      "date": "7/5/20",
+      "confirmed_cases": "250545",
+      "deaths": "28385"
+    },
+    {
+      "date": "7/6/20",
+      "confirmed_cases": "251789",
+      "deaths": "28388"
+    },
+    {
+      "date": "7/7/20",
+      "confirmed_cases": "252130",
+      "deaths": "28392"
+    },
+    {
+      "date": "7/8/20",
+      "confirmed_cases": "252513",
+      "deaths": "28396"
+    },
+    {
+      "date": "7/9/20",
+      "confirmed_cases": "253056",
+      "deaths": "28401"
+    },
+    {
+      "date": "7/10/20",
+      "confirmed_cases": "253908",
+      "deaths": "28403"
+    },
+    {
+      "date": "7/11/20",
+      "confirmed_cases": "253908",
+      "deaths": "28403"
+    },
+    {
+      "date": "7/12/20",
+      "confirmed_cases": "253908",
+      "deaths": "28403"
+    },
+    {
+      "date": "7/13/20",
+      "confirmed_cases": "255953",
+      "deaths": "28406"
+    },
+    {
+      "date": "7/14/20",
+      "confirmed_cases": "256619",
+      "deaths": "28409"
+    },
+    {
+      "date": "7/15/20",
+      "confirmed_cases": "257494",
+      "deaths": "28413"
+    },
+    {
+      "date": "7/16/20",
+      "confirmed_cases": "258855",
+      "deaths": "28416"
+    },
+    {
+      "date": "7/17/20",
+      "confirmed_cases": "260255",
+      "deaths": "28420"
+    },
+    {
+      "date": "7/18/20",
+      "confirmed_cases": "260255",
+      "deaths": "28420"
+    },
+    {
+      "date": "7/19/20",
+      "confirmed_cases": "260255",
+      "deaths": "28420"
+    },
+    {
+      "date": "7/20/20",
+      "confirmed_cases": "264836",
+      "deaths": "28422"
+    },
+    {
+      "date": "7/21/20",
+      "confirmed_cases": "266194",
+      "deaths": "28424"
+    },
+    {
+      "date": "7/22/20",
+      "confirmed_cases": "267551",
+      "deaths": "28426"
+    },
+    {
+      "date": "7/23/20",
+      "confirmed_cases": "270166",
+      "deaths": "28429"
+    },
+    {
+      "date": "7/24/20",
+      "confirmed_cases": "272421",
+      "deaths": "28432"
+    },
+    {
+      "date": "7/25/20",
+      "confirmed_cases": "272421",
+      "deaths": "28432"
+    },
+    {
+      "date": "7/26/20",
+      "confirmed_cases": "272421",
+      "deaths": "28432"
     }
   ],
   "Sweden": [
@@ -4333,6 +4287,401 @@
       "date": "5/8/20",
       "confirmed_cases": "25265",
       "deaths": "3175"
+    },
+    {
+      "date": "5/9/20",
+      "confirmed_cases": "25921",
+      "deaths": "3220"
+    },
+    {
+      "date": "5/10/20",
+      "confirmed_cases": "26322",
+      "deaths": "3225"
+    },
+    {
+      "date": "5/11/20",
+      "confirmed_cases": "26670",
+      "deaths": "3256"
+    },
+    {
+      "date": "5/12/20",
+      "confirmed_cases": "27272",
+      "deaths": "3313"
+    },
+    {
+      "date": "5/13/20",
+      "confirmed_cases": "27909",
+      "deaths": "3460"
+    },
+    {
+      "date": "5/14/20",
+      "confirmed_cases": "28582",
+      "deaths": "3529"
+    },
+    {
+      "date": "5/15/20",
+      "confirmed_cases": "29207",
+      "deaths": "3646"
+    },
+    {
+      "date": "5/16/20",
+      "confirmed_cases": "29677",
+      "deaths": "3674"
+    },
+    {
+      "date": "5/17/20",
+      "confirmed_cases": "30143",
+      "deaths": "3679"
+    },
+    {
+      "date": "5/18/20",
+      "confirmed_cases": "30377",
+      "deaths": "3698"
+    },
+    {
+      "date": "5/19/20",
+      "confirmed_cases": "30799",
+      "deaths": "3743"
+    },
+    {
+      "date": "5/20/20",
+      "confirmed_cases": "31523",
+      "deaths": "3831"
+    },
+    {
+      "date": "5/21/20",
+      "confirmed_cases": "32172",
+      "deaths": "3871"
+    },
+    {
+      "date": "5/22/20",
+      "confirmed_cases": "32809",
+      "deaths": "3925"
+    },
+    {
+      "date": "5/23/20",
+      "confirmed_cases": "33188",
+      "deaths": "3992"
+    },
+    {
+      "date": "5/24/20",
+      "confirmed_cases": "33459",
+      "deaths": "3998"
+    },
+    {
+      "date": "5/25/20",
+      "confirmed_cases": "33843",
+      "deaths": "4029"
+    },
+    {
+      "date": "5/26/20",
+      "confirmed_cases": "34440",
+      "deaths": "4125"
+    },
+    {
+      "date": "5/27/20",
+      "confirmed_cases": "35088",
+      "deaths": "4220"
+    },
+    {
+      "date": "5/28/20",
+      "confirmed_cases": "35727",
+      "deaths": "4266"
+    },
+    {
+      "date": "5/29/20",
+      "confirmed_cases": "36476",
+      "deaths": "4350"
+    },
+    {
+      "date": "5/30/20",
+      "confirmed_cases": "37113",
+      "deaths": "4395"
+    },
+    {
+      "date": "5/31/20",
+      "confirmed_cases": "37542",
+      "deaths": "4395"
+    },
+    {
+      "date": "6/1/20",
+      "confirmed_cases": "37814",
+      "deaths": "4403"
+    },
+    {
+      "date": "6/2/20",
+      "confirmed_cases": "38589",
+      "deaths": "4468"
+    },
+    {
+      "date": "6/3/20",
+      "confirmed_cases": "40803",
+      "deaths": "4542"
+    },
+    {
+      "date": "6/4/20",
+      "confirmed_cases": "41883",
+      "deaths": "4562"
+    },
+    {
+      "date": "6/5/20",
+      "confirmed_cases": "42939",
+      "deaths": "4639"
+    },
+    {
+      "date": "6/6/20",
+      "confirmed_cases": "43887",
+      "deaths": "4656"
+    },
+    {
+      "date": "6/7/20",
+      "confirmed_cases": "44730",
+      "deaths": "4659"
+    },
+    {
+      "date": "6/8/20",
+      "confirmed_cases": "45133",
+      "deaths": "4694"
+    },
+    {
+      "date": "6/9/20",
+      "confirmed_cases": "45924",
+      "deaths": "4717"
+    },
+    {
+      "date": "6/10/20",
+      "confirmed_cases": "46814",
+      "deaths": "4795"
+    },
+    {
+      "date": "6/11/20",
+      "confirmed_cases": "48288",
+      "deaths": "4814"
+    },
+    {
+      "date": "6/12/20",
+      "confirmed_cases": "49684",
+      "deaths": "4854"
+    },
+    {
+      "date": "6/13/20",
+      "confirmed_cases": "50931",
+      "deaths": "4874"
+    },
+    {
+      "date": "6/14/20",
+      "confirmed_cases": "51614",
+      "deaths": "4874"
+    },
+    {
+      "date": "6/15/20",
+      "confirmed_cases": "52383",
+      "deaths": "4891"
+    },
+    {
+      "date": "6/16/20",
+      "confirmed_cases": "53323",
+      "deaths": "4939"
+    },
+    {
+      "date": "6/17/20",
+      "confirmed_cases": "54562",
+      "deaths": "5041"
+    },
+    {
+      "date": "6/18/20",
+      "confirmed_cases": "56043",
+      "deaths": "5053"
+    },
+    {
+      "date": "6/19/20",
+      "confirmed_cases": "58076",
+      "deaths": "5105"
+    },
+    {
+      "date": "6/20/20",
+      "confirmed_cases": "58591",
+      "deaths": "5109"
+    },
+    {
+      "date": "6/21/20",
+      "confirmed_cases": "58848",
+      "deaths": "5111"
+    },
+    {
+      "date": "6/22/20",
+      "confirmed_cases": "58932",
+      "deaths": "5122"
+    },
+    {
+      "date": "6/23/20",
+      "confirmed_cases": "60837",
+      "deaths": "5161"
+    },
+    {
+      "date": "6/24/20",
+      "confirmed_cases": "62324",
+      "deaths": "5209"
+    },
+    {
+      "date": "6/25/20",
+      "confirmed_cases": "63890",
+      "deaths": "5230"
+    },
+    {
+      "date": "6/26/20",
+      "confirmed_cases": "65137",
+      "deaths": "5280"
+    },
+    {
+      "date": "6/27/20",
+      "confirmed_cases": "65137",
+      "deaths": "5280"
+    },
+    {
+      "date": "6/28/20",
+      "confirmed_cases": "65137",
+      "deaths": "5280"
+    },
+    {
+      "date": "6/29/20",
+      "confirmed_cases": "67667",
+      "deaths": "5310"
+    },
+    {
+      "date": "6/30/20",
+      "confirmed_cases": "68451",
+      "deaths": "5333"
+    },
+    {
+      "date": "7/1/20",
+      "confirmed_cases": "69692",
+      "deaths": "5370"
+    },
+    {
+      "date": "7/2/20",
+      "confirmed_cases": "70639",
+      "deaths": "5411"
+    },
+    {
+      "date": "7/3/20",
+      "confirmed_cases": "71419",
+      "deaths": "5420"
+    },
+    {
+      "date": "7/4/20",
+      "confirmed_cases": "71419",
+      "deaths": "5420"
+    },
+    {
+      "date": "7/5/20",
+      "confirmed_cases": "71419",
+      "deaths": "5420"
+    },
+    {
+      "date": "7/6/20",
+      "confirmed_cases": "73061",
+      "deaths": "5433"
+    },
+    {
+      "date": "7/7/20",
+      "confirmed_cases": "73344",
+      "deaths": "5447"
+    },
+    {
+      "date": "7/8/20",
+      "confirmed_cases": "73858",
+      "deaths": "5482"
+    },
+    {
+      "date": "7/9/20",
+      "confirmed_cases": "74333",
+      "deaths": "5500"
+    },
+    {
+      "date": "7/10/20",
+      "confirmed_cases": "74898",
+      "deaths": "5526"
+    },
+    {
+      "date": "7/11/20",
+      "confirmed_cases": "74898",
+      "deaths": "5526"
+    },
+    {
+      "date": "7/12/20",
+      "confirmed_cases": "74898",
+      "deaths": "5526"
+    },
+    {
+      "date": "7/13/20",
+      "confirmed_cases": "75826",
+      "deaths": "5536"
+    },
+    {
+      "date": "7/14/20",
+      "confirmed_cases": "76001",
+      "deaths": "5545"
+    },
+    {
+      "date": "7/15/20",
+      "confirmed_cases": "76492",
+      "deaths": "5572"
+    },
+    {
+      "date": "7/16/20",
+      "confirmed_cases": "76877",
+      "deaths": "5593"
+    },
+    {
+      "date": "7/17/20",
+      "confirmed_cases": "77281",
+      "deaths": "5619"
+    },
+    {
+      "date": "7/18/20",
+      "confirmed_cases": "77281",
+      "deaths": "5619"
+    },
+    {
+      "date": "7/19/20",
+      "confirmed_cases": "77281",
+      "deaths": "5619"
+    },
+    {
+      "date": "7/20/20",
+      "confirmed_cases": "78048",
+      "deaths": "5639"
+    },
+    {
+      "date": "7/21/20",
+      "confirmed_cases": "78166",
+      "deaths": "5646"
+    },
+    {
+      "date": "7/22/20",
+      "confirmed_cases": "78504",
+      "deaths": "5667"
+    },
+    {
+      "date": "7/23/20",
+      "confirmed_cases": "78763",
+      "deaths": "5676"
+    },
+    {
+      "date": "7/24/20",
+      "confirmed_cases": "78997",
+      "deaths": "5697"
+    },
+    {
+      "date": "7/25/20",
+      "confirmed_cases": "78997",
+      "deaths": "5697"
+    },
+    {
+      "date": "7/26/20",
+      "confirmed_cases": "78997",
+      "deaths": "5697"
     }
   ],
   "United Kingdom": [
@@ -4398,483 +4747,878 @@
     },
     {
       "date": "2/3/20",
-      "confirmed_cases": "2",
+      "confirmed_cases": "8",
       "deaths": "0"
     },
     {
       "date": "2/4/20",
-      "confirmed_cases": "2",
+      "confirmed_cases": "8",
       "deaths": "0"
     },
     {
       "date": "2/5/20",
-      "confirmed_cases": "2",
+      "confirmed_cases": "9",
       "deaths": "0"
     },
     {
       "date": "2/6/20",
-      "confirmed_cases": "2",
+      "confirmed_cases": "9",
       "deaths": "0"
     },
     {
       "date": "2/7/20",
-      "confirmed_cases": "3",
+      "confirmed_cases": "9",
       "deaths": "0"
     },
     {
       "date": "2/8/20",
-      "confirmed_cases": "3",
+      "confirmed_cases": "13",
       "deaths": "0"
     },
     {
       "date": "2/9/20",
-      "confirmed_cases": "3",
+      "confirmed_cases": "14",
       "deaths": "0"
     },
     {
       "date": "2/10/20",
-      "confirmed_cases": "8",
+      "confirmed_cases": "14",
       "deaths": "0"
     },
     {
       "date": "2/11/20",
-      "confirmed_cases": "8",
-      "deaths": "0"
-    },
-    {
-      "date": "2/12/20",
-      "confirmed_cases": "9",
-      "deaths": "0"
-    },
-    {
-      "date": "2/13/20",
-      "confirmed_cases": "9",
-      "deaths": "0"
-    },
-    {
-      "date": "2/14/20",
-      "confirmed_cases": "9",
-      "deaths": "0"
-    },
-    {
-      "date": "2/15/20",
-      "confirmed_cases": "9",
-      "deaths": "0"
-    },
-    {
-      "date": "2/16/20",
-      "confirmed_cases": "9",
-      "deaths": "0"
-    },
-    {
-      "date": "2/17/20",
-      "confirmed_cases": "9",
-      "deaths": "0"
-    },
-    {
-      "date": "2/18/20",
-      "confirmed_cases": "9",
-      "deaths": "0"
-    },
-    {
-      "date": "2/19/20",
-      "confirmed_cases": "9",
-      "deaths": "0"
-    },
-    {
-      "date": "2/20/20",
-      "confirmed_cases": "9",
-      "deaths": "0"
-    },
-    {
-      "date": "2/21/20",
-      "confirmed_cases": "9",
-      "deaths": "0"
-    },
-    {
-      "date": "2/22/20",
-      "confirmed_cases": "9",
-      "deaths": "0"
-    },
-    {
-      "date": "2/23/20",
-      "confirmed_cases": "9",
-      "deaths": "0"
-    },
-    {
-      "date": "2/24/20",
-      "confirmed_cases": "13",
-      "deaths": "0"
-    },
-    {
-      "date": "2/25/20",
-      "confirmed_cases": "13",
-      "deaths": "0"
-    },
-    {
-      "date": "2/26/20",
-      "confirmed_cases": "13",
-      "deaths": "0"
-    },
-    {
-      "date": "2/27/20",
       "confirmed_cases": "15",
       "deaths": "0"
     },
     {
-      "date": "2/28/20",
+      "date": "2/12/20",
+      "confirmed_cases": "16",
+      "deaths": "0"
+    },
+    {
+      "date": "2/13/20",
+      "confirmed_cases": "17",
+      "deaths": "0"
+    },
+    {
+      "date": "2/14/20",
+      "confirmed_cases": "18",
+      "deaths": "0"
+    },
+    {
+      "date": "2/15/20",
+      "confirmed_cases": "18",
+      "deaths": "0"
+    },
+    {
+      "date": "2/16/20",
+      "confirmed_cases": "18",
+      "deaths": "0"
+    },
+    {
+      "date": "2/17/20",
+      "confirmed_cases": "19",
+      "deaths": "0"
+    },
+    {
+      "date": "2/18/20",
+      "confirmed_cases": "19",
+      "deaths": "0"
+    },
+    {
+      "date": "2/19/20",
       "confirmed_cases": "20",
       "deaths": "0"
     },
     {
-      "date": "2/29/20",
+      "date": "2/20/20",
+      "confirmed_cases": "22",
+      "deaths": "0"
+    },
+    {
+      "date": "2/21/20",
       "confirmed_cases": "23",
       "deaths": "0"
     },
     {
+      "date": "2/22/20",
+      "confirmed_cases": "23",
+      "deaths": "0"
+    },
+    {
+      "date": "2/23/20",
+      "confirmed_cases": "28",
+      "deaths": "0"
+    },
+    {
+      "date": "2/24/20",
+      "confirmed_cases": "30",
+      "deaths": "0"
+    },
+    {
+      "date": "2/25/20",
+      "confirmed_cases": "34",
+      "deaths": "0"
+    },
+    {
+      "date": "2/26/20",
+      "confirmed_cases": "37",
+      "deaths": "0"
+    },
+    {
+      "date": "2/27/20",
+      "confirmed_cases": "44",
+      "deaths": "0"
+    },
+    {
+      "date": "2/28/20",
+      "confirmed_cases": "56",
+      "deaths": "0"
+    },
+    {
+      "date": "2/29/20",
+      "confirmed_cases": "61",
+      "deaths": "0"
+    },
+    {
       "date": "3/1/20",
-      "confirmed_cases": "36",
+      "confirmed_cases": "94",
       "deaths": "0"
     },
     {
       "date": "3/2/20",
-      "confirmed_cases": "40",
+      "confirmed_cases": "134",
       "deaths": "0"
     },
     {
       "date": "3/3/20",
-      "confirmed_cases": "51",
+      "confirmed_cases": "189",
       "deaths": "0"
     },
     {
       "date": "3/4/20",
-      "confirmed_cases": "85",
+      "confirmed_cases": "245",
       "deaths": "0"
     },
     {
       "date": "3/5/20",
-      "confirmed_cases": "115",
+      "confirmed_cases": "294",
       "deaths": "0"
     },
     {
       "date": "3/6/20",
-      "confirmed_cases": "163",
+      "confirmed_cases": "373",
       "deaths": "1"
     },
     {
       "date": "3/7/20",
-      "confirmed_cases": "206",
+      "confirmed_cases": "428",
       "deaths": "2"
     },
     {
       "date": "3/8/20",
-      "confirmed_cases": "273",
+      "confirmed_cases": "482",
       "deaths": "2"
     },
     {
       "date": "3/9/20",
-      "confirmed_cases": "321",
+      "confirmed_cases": "629",
       "deaths": "3"
     },
     {
       "date": "3/10/20",
-      "confirmed_cases": "382",
+      "confirmed_cases": "887",
       "deaths": "7"
     },
     {
       "date": "3/11/20",
-      "confirmed_cases": "456",
+      "confirmed_cases": "1298",
       "deaths": "7"
     },
     {
       "date": "3/12/20",
-      "confirmed_cases": "456",
+      "confirmed_cases": "1787",
       "deaths": "9"
     },
     {
       "date": "3/13/20",
-      "confirmed_cases": "798",
+      "confirmed_cases": "2266",
       "deaths": "10"
     },
     {
       "date": "3/14/20",
-      "confirmed_cases": "1140",
+      "confirmed_cases": "2630",
       "deaths": "28"
     },
     {
       "date": "3/15/20",
-      "confirmed_cases": "1140",
+      "confirmed_cases": "3072",
       "deaths": "43"
     },
     {
       "date": "3/16/20",
-      "confirmed_cases": "1543",
+      "confirmed_cases": "3684",
       "deaths": "65"
     },
     {
       "date": "3/17/20",
-      "confirmed_cases": "1950",
+      "confirmed_cases": "4452",
       "deaths": "81"
     },
     {
       "date": "3/18/20",
-      "confirmed_cases": "2626",
+      "confirmed_cases": "5451",
       "deaths": "115"
     },
     {
       "date": "3/19/20",
-      "confirmed_cases": "2689",
+      "confirmed_cases": "6506",
       "deaths": "158"
     },
     {
       "date": "3/20/20",
-      "confirmed_cases": "3983",
+      "confirmed_cases": "7760",
       "deaths": "194"
     },
     {
       "date": "3/21/20",
-      "confirmed_cases": "5018",
+      "confirmed_cases": "8957",
       "deaths": "250"
     },
     {
       "date": "3/22/20",
-      "confirmed_cases": "5683",
+      "confirmed_cases": "10333",
       "deaths": "285"
     },
     {
       "date": "3/23/20",
-      "confirmed_cases": "6650",
+      "confirmed_cases": "12668",
       "deaths": "359"
     },
     {
       "date": "3/24/20",
-      "confirmed_cases": "8077",
+      "confirmed_cases": "15039",
       "deaths": "508"
     },
     {
       "date": "3/25/20",
-      "confirmed_cases": "9529",
-      "deaths": "694"
+      "confirmed_cases": "17732",
+      "deaths": "695"
     },
     {
       "date": "3/26/20",
-      "confirmed_cases": "11658",
-      "deaths": "877"
+      "confirmed_cases": "20816",
+      "deaths": "878"
     },
     {
       "date": "3/27/20",
-      "confirmed_cases": "14543",
-      "deaths": "1161"
+      "confirmed_cases": "24017",
+      "deaths": "1162"
     },
     {
       "date": "3/28/20",
-      "confirmed_cases": "17089",
-      "deaths": "1455"
+      "confirmed_cases": "26839",
+      "deaths": "1456"
     },
     {
       "date": "3/29/20",
-      "confirmed_cases": "19522",
-      "deaths": "1669"
+      "confirmed_cases": "29696",
+      "deaths": "1670"
     },
     {
       "date": "3/30/20",
-      "confirmed_cases": "22141",
-      "deaths": "2043"
+      "confirmed_cases": "33969",
+      "deaths": "2044"
     },
     {
       "date": "3/31/20",
-      "confirmed_cases": "25150",
-      "deaths": "2425"
+      "confirmed_cases": "38484",
+      "deaths": "2426"
     },
     {
       "date": "4/1/20",
-      "confirmed_cases": "29474",
-      "deaths": "3095"
+      "confirmed_cases": "43398",
+      "deaths": "3096"
     },
     {
       "date": "4/2/20",
-      "confirmed_cases": "33718",
-      "deaths": "3747"
+      "confirmed_cases": "48263",
+      "deaths": "3748"
     },
     {
       "date": "4/3/20",
-      "confirmed_cases": "38168",
-      "deaths": "4461"
+      "confirmed_cases": "53178",
+      "deaths": "4462"
     },
     {
       "date": "4/4/20",
-      "confirmed_cases": "41903",
-      "deaths": "5221"
+      "confirmed_cases": "57198",
+      "deaths": "5222"
     },
     {
       "date": "4/5/20",
-      "confirmed_cases": "47806",
-      "deaths": "5865"
+      "confirmed_cases": "60792",
+      "deaths": "5866"
     },
     {
       "date": "4/6/20",
-      "confirmed_cases": "51608",
-      "deaths": "6433"
+      "confirmed_cases": "66067",
+      "deaths": "6434"
     },
     {
       "date": "4/7/20",
-      "confirmed_cases": "55242",
-      "deaths": "7471"
+      "confirmed_cases": "71517",
+      "deaths": "7472"
     },
     {
       "date": "4/8/20",
-      "confirmed_cases": "60733",
-      "deaths": "8505"
+      "confirmed_cases": "76646",
+      "deaths": "8506"
     },
     {
       "date": "4/9/20",
-      "confirmed_cases": "65077",
-      "deaths": "9608"
+      "confirmed_cases": "81498",
+      "deaths": "9616"
     },
     {
       "date": "4/10/20",
-      "confirmed_cases": "73758",
-      "deaths": "10760"
+      "confirmed_cases": "85813",
+      "deaths": "10768"
     },
     {
       "date": "4/11/20",
-      "confirmed_cases": "78991",
-      "deaths": "11599"
+      "confirmed_cases": "89390",
+      "deaths": "11608"
     },
     {
       "date": "4/12/20",
-      "confirmed_cases": "84279",
-      "deaths": "12285"
+      "confirmed_cases": "92885",
+      "deaths": "12294"
     },
     {
       "date": "4/13/20",
-      "confirmed_cases": "88621",
-      "deaths": "13029"
+      "confirmed_cases": "97068",
+      "deaths": "13038"
     },
     {
       "date": "4/14/20",
-      "confirmed_cases": "93873",
-      "deaths": "14073"
+      "confirmed_cases": "101393",
+      "deaths": "14085"
     },
     {
       "date": "4/15/20",
-      "confirmed_cases": "98476",
-      "deaths": "14915"
+      "confirmed_cases": "106458",
+      "deaths": "14927"
     },
     {
       "date": "4/16/20",
-      "confirmed_cases": "103093",
-      "deaths": "15944"
+      "confirmed_cases": "111756",
+      "deaths": "15956"
     },
     {
       "date": "4/17/20",
-      "confirmed_cases": "108692",
-      "deaths": "16879"
+      "confirmed_cases": "116721",
+      "deaths": "16892"
     },
     {
       "date": "4/18/20",
-      "confirmed_cases": "114217",
-      "deaths": "17994"
+      "confirmed_cases": "121437",
+      "deaths": "18007"
     },
     {
       "date": "4/19/20",
-      "confirmed_cases": "120067",
-      "deaths": "18492"
+      "confirmed_cases": "125289",
+      "deaths": "18505"
     },
     {
       "date": "4/20/20",
-      "confirmed_cases": "124743",
-      "deaths": "19051"
+      "confirmed_cases": "130147",
+      "deaths": "19064"
     },
     {
       "date": "4/21/20",
-      "confirmed_cases": "129044",
-      "deaths": "20223"
+      "confirmed_cases": "134907",
+      "deaths": "20237"
     },
     {
       "date": "4/22/20",
-      "confirmed_cases": "133495",
-      "deaths": "21060"
+      "confirmed_cases": "140397",
+      "deaths": "21074"
     },
     {
       "date": "4/23/20",
-      "confirmed_cases": "138078",
-      "deaths": "21787"
+      "confirmed_cases": "145540",
+      "deaths": "21801"
     },
     {
       "date": "4/24/20",
-      "confirmed_cases": "143464",
-      "deaths": "22792"
+      "confirmed_cases": "150513",
+      "deaths": "22807"
     },
     {
       "date": "4/25/20",
-      "confirmed_cases": "148377",
-      "deaths": "23635"
+      "confirmed_cases": "154261",
+      "deaths": "23650"
     },
     {
       "date": "4/26/20",
-      "confirmed_cases": "152840",
-      "deaths": "24055"
+      "confirmed_cases": "157729",
+      "deaths": "24070"
     },
     {
       "date": "4/27/20",
-      "confirmed_cases": "157149",
-      "deaths": "24393"
+      "confirmed_cases": "162431",
+      "deaths": "24408"
     },
     {
       "date": "4/28/20",
-      "confirmed_cases": "161145",
-      "deaths": "25302"
+      "confirmed_cases": "167152",
+      "deaths": "25319"
     },
     {
       "date": "4/29/20",
-      "confirmed_cases": "165221",
-      "deaths": "26097"
+      "confirmed_cases": "172587",
+      "deaths": "26114"
     },
     {
       "date": "4/30/20",
-      "confirmed_cases": "171253",
-      "deaths": "26771"
+      "confirmed_cases": "177543",
+      "deaths": "26788"
     },
     {
       "date": "5/1/20",
-      "confirmed_cases": "177454",
-      "deaths": "27510"
+      "confirmed_cases": "182270",
+      "deaths": "27528"
     },
     {
       "date": "5/2/20",
-      "confirmed_cases": "182260",
-      "deaths": "28131"
+      "confirmed_cases": "185491",
+      "deaths": "28149"
     },
     {
       "date": "5/3/20",
-      "confirmed_cases": "186599",
-      "deaths": "28446"
+      "confirmed_cases": "188465",
+      "deaths": "28464"
     },
     {
       "date": "5/4/20",
-      "confirmed_cases": "190584",
-      "deaths": "28734"
+      "confirmed_cases": "191843",
+      "deaths": "28752"
     },
     {
       "date": "5/5/20",
-      "confirmed_cases": "194990",
-      "deaths": "29427"
+      "confirmed_cases": "195527",
+      "deaths": "29446"
     },
     {
       "date": "5/6/20",
-      "confirmed_cases": "201101",
-      "deaths": "30076"
+      "confirmed_cases": "199358",
+      "deaths": "30098"
     },
     {
       "date": "5/7/20",
-      "confirmed_cases": "206715",
-      "deaths": "30615"
+      "confirmed_cases": "203125",
+      "deaths": "30638"
     },
     {
       "date": "5/8/20",
-      "confirmed_cases": "211364",
-      "deaths": "31241"
+      "confirmed_cases": "206174",
+      "deaths": "31265"
+    },
+    {
+      "date": "5/9/20",
+      "confirmed_cases": "208324",
+      "deaths": "31610"
+    },
+    {
+      "date": "5/10/20",
+      "confirmed_cases": "210645",
+      "deaths": "31879"
+    },
+    {
+      "date": "5/11/20",
+      "confirmed_cases": "214228",
+      "deaths": "32090"
+    },
+    {
+      "date": "5/12/20",
+      "confirmed_cases": "217617",
+      "deaths": "32720"
+    },
+    {
+      "date": "5/13/20",
+      "confirmed_cases": "220915",
+      "deaths": "33216"
+    },
+    {
+      "date": "5/14/20",
+      "confirmed_cases": "223524",
+      "deaths": "33644"
+    },
+    {
+      "date": "5/15/20",
+      "confirmed_cases": "226041",
+      "deaths": "34028"
+    },
+    {
+      "date": "5/16/20",
+      "confirmed_cases": "228106",
+      "deaths": "34508"
+    },
+    {
+      "date": "5/17/20",
+      "confirmed_cases": "229932",
+      "deaths": "34678"
+    },
+    {
+      "date": "5/18/20",
+      "confirmed_cases": "232506",
+      "deaths": "34838"
+    },
+    {
+      "date": "5/19/20",
+      "confirmed_cases": "235547",
+      "deaths": "35386"
+    },
+    {
+      "date": "5/20/20",
+      "confirmed_cases": "238253",
+      "deaths": "35755"
+    },
+    {
+      "date": "5/21/20",
+      "confirmed_cases": "240795",
+      "deaths": "36093"
+    },
+    {
+      "date": "5/22/20",
+      "confirmed_cases": "242825",
+      "deaths": "36451"
+    },
+    {
+      "date": "5/23/20",
+      "confirmed_cases": "244332",
+      "deaths": "36734"
+    },
+    {
+      "date": "5/24/20",
+      "confirmed_cases": "245680",
+      "deaths": "37175"
+    },
+    {
+      "date": "5/25/20",
+      "confirmed_cases": "247287",
+      "deaths": "37297"
+    },
+    {
+      "date": "5/26/20",
+      "confirmed_cases": "248937",
+      "deaths": "37433"
+    },
+    {
+      "date": "5/27/20",
+      "confirmed_cases": "250739",
+      "deaths": "37876"
+    },
+    {
+      "date": "5/28/20",
+      "confirmed_cases": "252473",
+      "deaths": "38292"
+    },
+    {
+      "date": "5/29/20",
+      "confirmed_cases": "253977",
+      "deaths": "38665"
+    },
+    {
+      "date": "5/30/20",
+      "confirmed_cases": "255076",
+      "deaths": "38895"
+    },
+    {
+      "date": "5/31/20",
+      "confirmed_cases": "256145",
+      "deaths": "39010"
+    },
+    {
+      "date": "6/1/20",
+      "confirmed_cases": "257579",
+      "deaths": "39121"
+    },
+    {
+      "date": "6/2/20",
+      "confirmed_cases": "259046",
+      "deaths": "39447"
+    },
+    {
+      "date": "6/3/20",
+      "confirmed_cases": "260388",
+      "deaths": "39812"
+    },
+    {
+      "date": "6/4/20",
+      "confirmed_cases": "261622",
+      "deaths": "39989"
+    },
+    {
+      "date": "6/5/20",
+      "confirmed_cases": "262727",
+      "deaths": "40347"
+    },
+    {
+      "date": "6/6/20",
+      "confirmed_cases": "263518",
+      "deaths": "40554"
+    },
+    {
+      "date": "6/7/20",
+      "confirmed_cases": "264235",
+      "deaths": "40631"
+    },
+    {
+      "date": "6/8/20",
+      "confirmed_cases": "265321",
+      "deaths": "40686"
+    },
+    {
+      "date": "6/9/20",
+      "confirmed_cases": "266474",
+      "deaths": "40975"
+    },
+    {
+      "date": "6/10/20",
+      "confirmed_cases": "267656",
+      "deaths": "41225"
+    },
+    {
+      "date": "6/11/20",
+      "confirmed_cases": "268657",
+      "deaths": "41377"
+    },
+    {
+      "date": "6/12/20",
+      "confirmed_cases": "269710",
+      "deaths": "41581"
+    },
+    {
+      "date": "6/13/20",
+      "confirmed_cases": "270597",
+      "deaths": "41764"
+    },
+    {
+      "date": "6/14/20",
+      "confirmed_cases": "271404",
+      "deaths": "41800"
+    },
+    {
+      "date": "6/15/20",
+      "confirmed_cases": "272430",
+      "deaths": "41838"
+    },
+    {
+      "date": "6/16/20",
+      "confirmed_cases": "273507",
+      "deaths": "42074"
+    },
+    {
+      "date": "6/17/20",
+      "confirmed_cases": "274504",
+      "deaths": "42258"
+    },
+    {
+      "date": "6/18/20",
+      "confirmed_cases": "275524",
+      "deaths": "42395"
+    },
+    {
+      "date": "6/19/20",
+      "confirmed_cases": "276504",
+      "deaths": "42568"
+    },
+    {
+      "date": "6/20/20",
+      "confirmed_cases": "277170",
+      "deaths": "42698"
+    },
+    {
+      "date": "6/21/20",
+      "confirmed_cases": "277792",
+      "deaths": "42741"
+    },
+    {
+      "date": "6/22/20",
+      "confirmed_cases": "278684",
+      "deaths": "42756"
+    },
+    {
+      "date": "6/23/20",
+      "confirmed_cases": "279566",
+      "deaths": "42927"
+    },
+    {
+      "date": "6/24/20",
+      "confirmed_cases": "280340",
+      "deaths": "43081"
+    },
+    {
+      "date": "6/25/20",
+      "confirmed_cases": "281037",
+      "deaths": "43230"
+    },
+    {
+      "date": "6/26/20",
+      "confirmed_cases": "281675",
+      "deaths": "43414"
+    },
+    {
+      "date": "6/27/20",
+      "confirmed_cases": "282308",
+      "deaths": "43514"
+    },
+    {
+      "date": "6/28/20",
+      "confirmed_cases": "282703",
+      "deaths": "43550"
+    },
+    {
+      "date": "6/29/20",
+      "confirmed_cases": "283307",
+      "deaths": "43575"
+    },
+    {
+      "date": "6/30/20",
+      "confirmed_cases": "283710",
+      "deaths": "43730"
+    },
+    {
+      "date": "7/1/20",
+      "confirmed_cases": "283770",
+      "deaths": "43906"
+    },
+    {
+      "date": "7/2/20",
+      "confirmed_cases": "283774",
+      "deaths": "43995"
+    },
+    {
+      "date": "7/3/20",
+      "confirmed_cases": "284276",
+      "deaths": "44131"
+    },
+    {
+      "date": "7/4/20",
+      "confirmed_cases": "284900",
+      "deaths": "44198"
+    },
+    {
+      "date": "7/5/20",
+      "confirmed_cases": "285416",
+      "deaths": "44220"
+    },
+    {
+      "date": "7/6/20",
+      "confirmed_cases": "285768",
+      "deaths": "44236"
+    },
+    {
+      "date": "7/7/20",
+      "confirmed_cases": "286349",
+      "deaths": "44391"
+    },
+    {
+      "date": "7/8/20",
+      "confirmed_cases": "286979",
+      "deaths": "44517"
+    },
+    {
+      "date": "7/9/20",
+      "confirmed_cases": "287621",
+      "deaths": "44602"
+    },
+    {
+      "date": "7/10/20",
+      "confirmed_cases": "288133",
+      "deaths": "44650"
+    },
+    {
+      "date": "7/11/20",
+      "confirmed_cases": "288953",
+      "deaths": "44798"
+    },
+    {
+      "date": "7/12/20",
+      "confirmed_cases": "289603",
+      "deaths": "44819"
+    },
+    {
+      "date": "7/13/20",
+      "confirmed_cases": "290133",
+      "deaths": "44830"
+    },
+    {
+      "date": "7/14/20",
+      "confirmed_cases": "291373",
+      "deaths": "44968"
+    },
+    {
+      "date": "7/15/20",
+      "confirmed_cases": "291911",
+      "deaths": "45053"
+    },
+    {
+      "date": "7/16/20",
+      "confirmed_cases": "292552",
+      "deaths": "45119"
+    },
+    {
+      "date": "7/17/20",
+      "confirmed_cases": "293239",
+      "deaths": "45233"
+    },
+    {
+      "date": "7/18/20",
+      "confirmed_cases": "294066",
+      "deaths": "45273"
+    },
+    {
+      "date": "7/19/20",
+      "confirmed_cases": "294792",
+      "deaths": "45300"
+    },
+    {
+      "date": "7/20/20",
+      "confirmed_cases": "295372",
+      "deaths": "45312"
+    },
+    {
+      "date": "7/21/20",
+      "confirmed_cases": "295817",
+      "deaths": "45422"
+    },
+    {
+      "date": "7/22/20",
+      "confirmed_cases": "296377",
+      "deaths": "45501"
+    },
+    {
+      "date": "7/23/20",
+      "confirmed_cases": "297146",
+      "deaths": "45554"
+    },
+    {
+      "date": "7/24/20",
+      "confirmed_cases": "297914",
+      "deaths": "45677"
+    },
+    {
+      "date": "7/25/20",
+      "confirmed_cases": "298681",
+      "deaths": "45738"
+    },
+    {
+      "date": "7/26/20",
+      "confirmed_cases": "299426",
+      "deaths": "45752"
     }
   ]
 }

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 body {
     text-align: center;
     width: 90%;
@@ -43,8 +44,8 @@ a:hover {
 
 form {
   display: inline-block;
+  margin: .8rem;
 }
-
 
 form#choixPays {
   /* float: left; */
@@ -58,4 +59,8 @@ form#choixPresentation {
 
 output {
   margin-left: .5em;
+}
+
+label {
+  padding: 10px;
 }

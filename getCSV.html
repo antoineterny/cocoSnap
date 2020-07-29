@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Get CSV !</title>
+  <script>
+    let casesCSV, deathsCSV;
+    const promCases = fetch('https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv')
+    .then( (response) => { return response.text() } )
+    .then( (data) => { casesCSV = data; } )
+    .catch( (err) => { console.log(err) } );
+
+    const promDeaths = fetch('https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv')
+    .then( (response) => { return response.text() } )
+    .then( (data) => { deathsCSV = data; } )
+    .catch( (err) => { console.log(err) } );
+
+    let selectedCountries = [
+      "France", 
+      "United Kingdom",
+      "Germany",
+      "Spain",
+      "Italy",
+    ]
+
+    function traitementCSV(casesCSV, deathsCSV) {
+      let allCasesLines = casesCSV.split('\n');
+      let allDeathsLines = deathsCSV.split('\n');
+      let data = {};
+      const dates = allCasesLines[0].split(',').slice(4);
+      for (i=1; i<allCasesLines.length; i++) {
+        let currentLine = allCasesLines[i].split(',');
+        let currentCountry = currentLine[1];
+        if (selectedCountries.includes(currentCountry) && currentLine[0] === "") {
+          let confirmedCases = currentLine.slice(4);
+          data[currentCountry] = [];
+          for (j=0; j<confirmedCases.length; j++) {
+            data[currentCountry].push( 
+              {"date": dates[j], "confirmed_cases": confirmedCases[j]} 
+            );
+          };
+        }
+      }
+      for (i=1; i<allDeathsLines.length; i++) {
+        let currentLine = allDeathsLines[i].split(',');
+        let currentCountry = currentLine[1];
+        if (selectedCountries.includes(currentCountry) && currentLine[0] === "") {
+          let confirmedDeaths = currentLine.slice(4);
+          for (j=0; j<confirmedDeaths.length; j++) {
+            data[currentCountry][j]["deaths"] = confirmedDeaths[j]
+          }
+        } ;
+      }
+      return data
+    }
+    
+    setTimeout(() => {
+      console.log(traitementCSV(casesCSV, deathsCSV))
+    }, 500
+    )
+
+  </script>
+</head>
+<body>
+  <p></p>
+</body>
+</html>
