@@ -8,27 +8,29 @@
 </head>
 <body>
     <h1>COVID-19</h1>
-    <h2>Cas confirmés et décès en France, au Brésil et au Royaume-Uni<br>
+    <h2>Cas confirmés et décès en Europe<br>
         d'après les données de la <a href="https://coronavirus.jhu.edu/">John Hopkins University</a></h2>
-    <p id="patience">Patience, le téléchargement des données peut prendre beaucoup de temps...</p>
+    <p id="patience">Patience, le téléchargement des données peut prendre du temps...</p>
     <div id="container">
         <svg id="svgout" width="100%" height="100%" viewBox="0 0 1200 600"></svg> 
     </div>
-    <form id="choixPays">
-        Afficher les données pour :<br>
+    <form id="choixPays" class="titre">
+        <label>Afficher les données pour</label>
     </form>
-    <br>
-        <form id="dateRangeForm">
-            <label for="dateRangeForm">Étendue temporelle</label>
-            <input type="range" id="dateRange" name="dateRange" min="30" max="180" step="1" value="90">
-            <output></output>
-        </form>
-        <p>Un grand merci à mon prof <a href="https://eliasdorneles.com/">Elias</a> &#128591;</p>
-        <p>Fait avec &#10084; et <a href="http://snapsvg.io/">Snap.svg</a></p>
-        <p><a href="http://snapsvg.io/" class="logo">
-            <img src="logoSnap.svg" alt="Logo">
-        </a>
-        </p>
+    <form id="dateRangeForm">
+        <label for="dateRangeForm">Étendue temporelle</label>
+        <input type="range" id="dateRange" name="dateRange" min="60" max="180" step="1" value="120">
+        <output></output>
+    </form>
+    <form>
+        <label><input type="checkbox" id="modeCalcul">Chiffres par millon d'habitant</label>
+    </form>
+    <p>Un grand merci à mon prof <a href="https://eliasdorneles.com/">Elias</a> &#128591;</p>
+    <p>Fait avec &#10084; et <a href="http://snapsvg.io/">Snap.svg</a></p>
+    <p><a href="http://snapsvg.io/" class="logo">
+        <img src="logoSnap.svg" alt="Logo">
+    </a>
+    </p>
     
     <script src="graph.js"></script>
 

@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+* {
+  box-sizing: border-box;
+}
 body {
     text-align: center;
     width: 90%;
@@ -8,12 +11,15 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+#container {
+  background-color: white;
+}
 h2 {
   font-weight: 300;
 }
 
 input {
-  margin-right: 1px;
+  margin: 0 .5rem 0 0;
 }
 
 a {
@@ -43,24 +49,29 @@ a:hover {
 }
 
 form {
-  display: inline-block;
-  margin: .8rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: .8rem;
+  margin: .8rem 0;
+  background-color: white;
 }
 
-form#choixPays {
-  /* float: left; */
-  text-align: left;
+label:first-child {
+  font-weight: bold;
+  border: none;
 }
 
-form#choixPresentation {
-  float: right;
-  text-align: right;
+#dateRangeForm input {
+  width: 33vw;
 }
-
-output {
+/* output {
   margin-left: .5em;
-}
+} */
 
 label {
-  padding: 10px;
+  padding: 10px 1em;
+  border: 1px solid #eee;
+  user-select: none;
 }
